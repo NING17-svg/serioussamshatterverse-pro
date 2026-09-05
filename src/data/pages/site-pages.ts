@@ -3,58 +3,6 @@ import type { PageContent } from "@/types/content";
 
 export const sitePages: PageContent[] = [
   {
-    id: "faq",
-    translationKey: "faq",
-    locale: "en-US",
-    routeKind: "fixed",
-    slug: "faq",
-    url: "/faq",
-    pageType: "faq",
-    presentation: { shell: "content", variant: "reading-full" },
-    h1: `${site.gameName} FAQ`,
-    seoTitle: `${site.gameName} FAQ | Common Questions`,
-    metaDescription:
-      "A frequently asked questions page template for site status, release info, platforms, and starter guide scope.",
-    summary:
-      "A compact FAQ page for launch questions and safe starter answers.",
-    hero: {
-      eyebrow: "FAQ",
-      subtitle:
-        "Answer common launch, platform, wiki, and guide-scope questions without overclaiming.",
-      ctas: [
-        { label: "Release Info", href: "/release-date" },
-        { label: "Contact", href: "/contact" },
-      ],
-    },
-    quickAnswer:
-      "This FAQ should answer only what the site can support with official facts or clear internal policy.",
-    keyFacts: [
-      { label: "FAQ source", value: "Official facts or site policy" },
-      { label: "Schema", value: "FAQ JSON-LD enabled" },
-      { label: "Review", value: "Update as launch facts change" },
-    ],
-    modules: [
-      {
-        id: "faq-policy",
-        type: "prose",
-        heading: "FAQ policy",
-        body:
-          "Keep answers short, source-aware, and easy to update. Avoid speculative claims about release dates, platforms, gameplay systems, or technical details.",
-      },
-    ],
-    faqIds: [
-      "what-is-this-site",
-      "is-official",
-      "release-date-known",
-      "platforms-known",
-      "guide-depth",
-    ],
-    relatedPageIds: ["wiki", "guides", "release-date", "about"],
-    schemaTypes: ["FAQPage", "BreadcrumbList"],
-    sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
-  },
-  {
     id: "about",
     translationKey: "about",
     locale: "en-US",
@@ -66,7 +14,7 @@ export const sitePages: PageContent[] = [
     h1: `About ${site.name}`,
     seoTitle: `About ${site.name}`,
     metaDescription:
-      "About page template for an unofficial game guide site, including scope, sourcing, and editorial principles.",
+      `About ${site.name}: an unofficial fan hub for Serious Sam: Shatterverse release info, co-op details, system requirements, weapons, run tips, and patch notes.`,
     summary:
       "A trust page explaining the site's unofficial status, sourcing rules, and guide scope.",
     hero: {
@@ -76,11 +24,11 @@ export const sitePages: PageContent[] = [
       ctas: [{ label: "Contact", href: "/contact" }],
     },
     quickAnswer:
-      `${site.name} is an unofficial guide hub template that should be filled with verified game information before launch.`,
+      `${site.name} is an unofficial fan guide for Serious Sam: Shatterverse, the 2026 co-op roguelite FPS by Behaviour Interactive Inc. (Devolver Digital). It is not affiliated with the publisher, developer, or franchise creator.`,
     keyFacts: [
       { label: "Status", value: "Unofficial fan guide" },
-      { label: "Editorial rule", value: "Verified facts first" },
-      { label: "Scope", value: "Wiki, guides, release info, FAQ" },
+      { label: "Editorial rule", value: "Verified facts only, with date stamps" },
+      { label: "Scope", value: "Release info, system requirements, co-op, Sam variants, weapons, run tips, community, updates" },
     ],
     modules: [
       {
@@ -88,21 +36,28 @@ export const sitePages: PageContent[] = [
         type: "prose",
         heading: "Mission",
         body:
-          "Help players find clear, well-structured information without pretending the site knows more than official sources support.",
+          "Help players find clear, well-structured information about Serious Sam: Shatterverse without inventing details that the official Steam store, serioussam.com, the verified X handle, or the Devolver Digital press release do not confirm.",
       },
       {
         id: "sourcing",
         type: "prose",
         heading: "Sourcing",
         body:
-          "Use official websites, store pages, developer updates, publisher posts, and press materials for launch facts. Mark uncertain areas as pending instead of filling gaps with guesses.",
+          "Hard current-game facts are limited to the Steam store page (AppID 2067210), the official serioussam.com hub, the verified X handle x.com/SeriousSamIAm, the Steam Community hub, and the Devolver Digital press release dated 2026-08-31. Anything outside those sources is labelled 'Not announced as of 2026-09-05'.",
+      },
+      {
+        id: "scope",
+        type: "prose",
+        heading: "What this site covers",
+        body:
+          "Release date and platforms, PC system requirements, launch price and the IT'S TIME TO GET SERIOUS BUNDLE, crossplay and co-op status, Steam Deck status, Sam Stone variants, Mental lieutenants, weapons and boons, run tips, the Steam playtest, supported languages, launch reviews, the latest patch notes, and the official community channels.",
       },
     ],
-    faqIds: ["what-is-this-site", "is-official"],
+    faqIds: [],
     relatedPageIds: ["contact", "privacy-policy", "terms"],
-    schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
+    schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    lastReviewed: "2026-09-05",
   },
   {
     id: "contact",
@@ -116,7 +71,7 @@ export const sitePages: PageContent[] = [
     h1: "Contact",
     seoTitle: `Contact | ${site.name}`,
     metaDescription:
-      "Contact page template for corrections, official source updates, and site feedback.",
+      "Contact Serious Sam: Shatterverse Guide for corrections, source updates, and feedback. Use official source links when reporting a change.",
     summary:
       "A trust page for corrections, source updates, and site feedback.",
     hero: {
@@ -126,33 +81,33 @@ export const sitePages: PageContent[] = [
       ctas: [{ label: "Read About", href: "/about" }],
     },
     quickAnswer:
-      "Replace this page with a working contact method before launch, such as an email address or contact form.",
+      `Email ${site.name} at support@serioussamshatterverse.pro for corrections, source links, or feedback.`,
     keyFacts: [
       { label: "Primary use", value: "Corrections and feedback" },
-      { label: "Launch requirement", value: "Add a real contact method" },
-      { label: "Response", value: "Set expectations clearly" },
+      { label: "Email", value: "support@serioussamshatterverse.pro" },
+      { label: "Response time", value: "Best effort, no SLA" },
     ],
     modules: [
       {
         id: "contact-method",
         type: "prose",
-        heading: "Contact method",
+        heading: "Email",
         body:
-          "Add a real email address or form endpoint before publishing. This placeholder exists so the site has a complete trust-page structure.",
+          "Send corrections or feedback to support@serioussamshatterverse.pro. The Cloudflare Email Routing rule for this address forwards to the verified owner mailbox; do not request a different inbox on this page.",
       },
       {
         id: "corrections",
         type: "prose",
         heading: "Corrections",
         body:
-          "Invite readers to send official source links when facts change. Do not ask for private account information or game account credentials.",
+          "When reporting a correction, include a link to the official source (Steam store, serioussam.com, the verified X handle, Steam Community hub, or the Devolver Digital press release) and the page or section that needs updating. Do not send game account credentials or personal account information.",
       },
     ],
     faqIds: [],
     relatedPageIds: ["about", "privacy-policy", "terms"],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    lastReviewed: "2026-09-05",
   },
   {
     id: "privacy-policy",
@@ -166,21 +121,21 @@ export const sitePages: PageContent[] = [
     h1: "Privacy Policy",
     seoTitle: `Privacy Policy | ${site.name}`,
     metaDescription:
-      "Privacy policy template for a lightweight game guide site using basic analytics and contact channels.",
+      `${site.name} privacy policy: lightweight analytics only (GA4 when configured), no accounts, no comments, no payments, and ad units are empty by default.`,
     summary:
       "A starter privacy policy page for analytics, logs, and contact messages.",
     hero: {
       eyebrow: "Privacy",
       subtitle:
-        "Explain what data the site collects, why it is used, and how visitors can make contact.",
+        "Explain what data the site collects, why it is used, and how visitors can reach the operator.",
       ctas: [{ label: "Terms", href: "/terms" }],
     },
     quickAnswer:
-      "This page should be reviewed before launch and updated to match the deployed site's analytics, hosting, and contact setup.",
+      "This site does not include accounts, comments, or payments. When configured, GA4 collects aggregate usage; ad units are empty by default.",
     keyFacts: [
       { label: "Analytics", value: "GA4 only when configured" },
-      { label: "Accounts", value: "No user accounts in V1" },
-      { label: "Ads", value: "Adsterra only when enabled" },
+      { label: "Accounts", value: "No user accounts" },
+      { label: "Ads", value: "Empty Adsterra units; AdSense ownership metadata only" },
     ],
     modules: [
       {
@@ -188,28 +143,28 @@ export const sitePages: PageContent[] = [
         type: "prose",
         heading: "Information we collect",
         body:
-          "This site does not include accounts, comments, or payments. If GA4 is configured, analytics may collect aggregate usage information according to Google Analytics settings. If advertising is enabled, the third-party advertising provider may process technical request data and use cookies or similar technologies to deliver and measure ads.",
+          "This site does not include accounts, comments, or payments. When a GA4 measurement ID is configured, Google Analytics may collect aggregate usage information according to its own settings. The fixed Adsterra-ready units are empty in the production build and the AdSense publisher values are preinstalled but the account has not been submitted for review. No third-party advertising request is made by default.",
       },
       {
         id: "contact",
         type: "prose",
         heading: "Contact messages",
         body:
-          "If a contact method is added, messages may include the information visitors choose to send. Do not request sensitive personal information.",
+          "Messages sent to support@serioussamshatterverse.pro include the email content the visitor chooses to send. Do not include sensitive personal information; account credentials are never requested.",
       },
       {
         id: "updates",
         type: "prose",
         heading: "Policy updates",
         body:
-          "Update this policy when analytics, hosting, contact methods, advertising providers, or other data collection behavior changes.",
+          "Update this policy when analytics, hosting, contact methods, advertising providers, or other data collection behaviour changes.",
       },
     ],
     faqIds: [],
     relatedPageIds: ["about", "contact", "terms"],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    lastReviewed: "2026-09-05",
   },
   {
     id: "terms",
@@ -223,7 +178,7 @@ export const sitePages: PageContent[] = [
     h1: "Terms of Use",
     seoTitle: `Terms of Use | ${site.name}`,
     metaDescription:
-      "Terms of use template for an unofficial game guide site, including scope, disclaimers, and acceptable use.",
+      `Terms of use for ${site.name}: unofficial fan site, informational only, no warranty, and reliance on official sources for final purchase and platform decisions.`,
     summary:
       "A starter terms page for an unofficial guide site.",
     hero: {
@@ -233,11 +188,11 @@ export const sitePages: PageContent[] = [
       ctas: [{ label: "Privacy Policy", href: "/privacy-policy" }],
     },
     quickAnswer:
-      "This terms page is a template and should be reviewed before launch for the final site owner and jurisdiction.",
+      "This is an unofficial fan site. Information may change; rely on the official Steam store, serioussam.com, the verified X handle, and the Devolver Digital press release for final decisions.",
     keyFacts: [
       { label: "Use", value: "Informational guide content" },
       { label: "Official status", value: "Unofficial fan site" },
-      { label: "Review", value: "Update before launch" },
+      { label: "Review", value: "Updated for launch" },
     ],
     modules: [
       {
@@ -245,27 +200,27 @@ export const sitePages: PageContent[] = [
         type: "prose",
         heading: "Unofficial site",
         body:
-          "This site is not affiliated with the game publisher, developer, platform holders, or trademark owners unless explicitly stated after launch.",
+          `${site.name} is not affiliated with Devolver Digital, Behaviour Interactive Inc., Croteam, Valve, or any platform holder. References to Serious Sam: Shatterverse and the broader Serious Sam franchise are for informational purposes only.`,
       },
       {
         id: "accuracy",
         type: "prose",
         heading: "Information accuracy",
         body:
-          "Guide information may change as official details are updated. Use official sources for final purchase, platform, and release decisions.",
+          "Guide information may change as official details are updated. Use the official Steam store, serioussam.com, the verified X handle x.com/SeriousSamIAm, and the Devolver Digital press release dated 2026-08-31 for final purchase, platform, and release decisions.",
       },
       {
         id: "acceptable-use",
         type: "prose",
         heading: "Acceptable use",
         body:
-          "Do not misuse the site, scrape aggressively, interfere with service availability, or submit harmful content through any future contact channel.",
+          "Do not misuse the site, scrape aggressively, interfere with service availability, or submit harmful content through the contact channel.",
       },
     ],
     faqIds: [],
     relatedPageIds: ["about", "contact", "privacy-policy"],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    lastReviewed: "2026-09-05",
   },
 ];

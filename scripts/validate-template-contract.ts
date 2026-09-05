@@ -529,8 +529,8 @@ for (const page of getAllPages()) {
   }
 }
 
-const heroFixturePage = getAllPages().find((page) => page.id === "guides");
-if (!heroFixturePage) fail("guide fixture page is missing for review-date rendering validation");
+const heroFixturePage = getAllPages().find((page) => page.id !== "home");
+if (!heroFixturePage) fail("non-home fixture page is missing for review-date rendering validation");
 const pageHeroMarkup = renderToStaticMarkup(
   createElement(PageHero, { page: heroFixturePage }),
 );
@@ -568,7 +568,7 @@ for (const locale of site.locales) {
 }
 
 const germanSearchFixture = {
-  ...getAllPages().find((page) => page.id === "guides")!,
+  ...getAllPages().find((page) => page.id !== "home")!,
   id: "fixture-guides-de",
   locale: "de-DE",
   slug: "de/guides",
@@ -594,37 +594,41 @@ if (
   fail("locale-aware static search did not isolate and query the German route");
 }
 
+const fixturePages = getAllPages();
+const fixtureBasePage = fixturePages.find((page) => page.id !== "home")!;
+const fixtureHomePage = fixturePages.find((page) => page.id === "home")!;
+const fixtureTrustPage = fixturePages.find((page) => page.pageType === "site") ?? fixtureBasePage;
 const recentFixture = [
   {
-    ...getAllPages().find((page) => page.id === "guides")!,
+    ...fixtureBasePage,
     id: "recent-z",
     slug: "z",
     url: "/z",
     lastReviewed: "2026-08-01",
   },
   {
-    ...getAllPages().find((page) => page.id === "wiki")!,
+    ...fixtureBasePage,
     id: "recent-a",
     slug: "a",
     url: "/a",
     lastReviewed: "2026-08-01",
   },
   {
-    ...getAllPages().find((page) => page.id === "about")!,
+    ...fixtureTrustPage,
     id: "recent-trust",
     slug: "trust",
     url: "/trust",
     lastReviewed: "2026-09-01",
   },
   {
-    ...getAllPages().find((page) => page.id === "faq")!,
+    ...fixtureTrustPage,
     id: "recent-faq",
     slug: "faq-copy",
     url: "/faq-copy",
     lastReviewed: "2026-09-03",
   },
   {
-    ...getAllPages().find((page) => page.id === "home")!,
+    ...fixtureHomePage,
     id: "recent-home",
     lastReviewed: "2026-09-02",
   },

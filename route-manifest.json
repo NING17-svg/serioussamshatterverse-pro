@@ -1,0 +1,202 @@
+[
+  {
+    "id": "home",
+    "translationKey": "home",
+    "locale": "en-US",
+    "routeKind": "home",
+    "url": "/",
+    "alternates": {
+      "en-US": "/"
+    }
+  },
+  {
+    "id": "about",
+    "translationKey": "about",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/about",
+    "alternates": {
+      "en-US": "/about"
+    }
+  },
+  {
+    "id": "fixed-community-discord",
+    "translationKey": "community-discord",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/community",
+    "alternates": {
+      "en-US": "/community"
+    }
+  },
+  {
+    "id": "contact",
+    "translationKey": "contact",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/contact",
+    "alternates": {
+      "en-US": "/contact"
+    }
+  },
+  {
+    "id": "fixed-crossplay-coop",
+    "translationKey": "crossplay-coop",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/crossplay-coop",
+    "alternates": {
+      "en-US": "/crossplay-coop"
+    }
+  },
+  {
+    "id": "fixed-language-support",
+    "translationKey": "language-support",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/language-support",
+    "alternates": {
+      "en-US": "/language-support"
+    }
+  },
+  {
+    "id": "fixed-lieutenants-bosses",
+    "translationKey": "lieutenants-bosses",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/lieutenants-bosses",
+    "alternates": {
+      "en-US": "/lieutenants-bosses"
+    }
+  },
+  {
+    "id": "fixed-playtest-history",
+    "translationKey": "playtest-history",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/playtest",
+    "alternates": {
+      "en-US": "/playtest"
+    }
+  },
+  {
+    "id": "fixed-price-editions",
+    "translationKey": "price-editions",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/price-editions",
+    "alternates": {
+      "en-US": "/price-editions"
+    }
+  },
+  {
+    "id": "privacy-policy",
+    "translationKey": "privacy-policy",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/privacy-policy",
+    "alternates": {
+      "en-US": "/privacy-policy"
+    }
+  },
+  {
+    "id": "fixed-release-platforms",
+    "translationKey": "release-platforms",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/release",
+    "alternates": {
+      "en-US": "/release"
+    }
+  },
+  {
+    "id": "fixed-reviews-launch-impressions",
+    "translationKey": "reviews-launch-impressions",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/reviews",
+    "alternates": {
+      "en-US": "/reviews"
+    }
+  },
+  {
+    "id": "fixed-roguelite-run-tips",
+    "translationKey": "roguelite-run-tips",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/run-tips",
+    "alternates": {
+      "en-US": "/run-tips"
+    }
+  },
+  {
+    "id": "fixed-sam-variants-characters",
+    "translationKey": "sam-variants-characters",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/sam-variants",
+    "alternates": {
+      "en-US": "/sam-variants"
+    }
+  },
+  {
+    "id": "fixed-steam-deck",
+    "translationKey": "steam-deck",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/steam-deck",
+    "alternates": {
+      "en-US": "/steam-deck"
+    }
+  },
+  {
+    "id": "fixed-system-requirements",
+    "translationKey": "system-requirements",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/system-requirements",
+    "alternates": {
+      "en-US": "/system-requirements"
+    }
+  },
+  {
+    "id": "terms",
+    "translationKey": "terms",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/terms",
+    "alternates": {
+      "en-US": "/terms"
+    }
+  },
+  {
+    "id": "fixed-updates-patch-notes",
+    "translationKey": "updates-patch-notes",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/updates",
+    "alternates": {
+      "en-US": "/updates"
+    }
+  },
+  {
+    "id": "fixed-vs-classic-serious-sam",
+    "translationKey": "vs-classic-serious-sam",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/vs-classic-serious-sam",
+    "alternates": {
+      "en-US": "/vs-classic-serious-sam"
+    }
+  },
+  {
+    "id": "fixed-weapons-boons",
+    "translationKey": "weapons-boons",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/weapons-boons",
+    "alternates": {
+      "en-US": "/weapons-boons"
+    }
+  }
+]
