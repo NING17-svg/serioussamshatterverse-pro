@@ -22,3 +22,10 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 - V3 route contract validation passed.
 
 ### 2026-08-12 - Static discovery and review freshness baseline added
+
+### 2026-09-05 - Adsterra six-unit integration (adsterra-integrator)
+
+- Site id: `serioussamshatterverse-pro`; exact domain: `serioussamshatterverse.pro`.
+- Populated `src/data/ads.ts` with the six fixed Adsterra unit codes: Native Banner, Banner 728x90, Banner 468x60, Banner 320x50, Banner 160x600, Smartlink.
+- No component, layout, or page-structure changes; no new toggle fields.
+- `npm run verify` passed: 20 pages, 20 sitemap URLs, 20 manifest routes.
