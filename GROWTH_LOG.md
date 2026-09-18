@@ -29,3 +29,11 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 - Populated `src/data/ads.ts` with the six fixed Adsterra unit codes: Native Banner, Banner 728x90, Banner 468x60, Banner 320x50, Banner 160x600, Smartlink.
 - No component, layout, or page-structure changes; no new toggle fields.
 - `npm run verify` passed: 20 pages, 20 sitemap URLs, 20 manifest routes.
+
+### 2026-09-19 - Content updater batch (lieutenants + Sam variants + difficulty + weapons)
+
+- Refreshed `/lieutenants-bosses` with the five named Mental lieutenants (Lava Golem, Inverse Sam, Kleer God, Rogue Netricsa, Reptiloid Highlander) plus Shard of Mental final boss, all anchored to the Steam achievements list, and the 2026-09-17 Rogue Netricsa timer / explosion animation extension and Elite HP scaling reduction on Serious difficulty.
+- Refreshed `/sam-variants` with the five-variant launch roster, Retro Sam and Cartoon Sam first-party confirmed, Alien / Orphan / Broken Sam flagged as second-party, per-variant ultimates, and the 2026-09-09 Retro Sam decoy + Luring Intel fix.
+- Refreshed `/run-tips` with the three difficulty tiers (Normal, Serious Mode, Mental Mode) anchored to Steam achievements and the 2026-09-17 reworked Mental starting difficulty, reduced enemy / Elite / boss HP on Serious, and eased 2-player scaling.
+- Refreshed `/weapons-boons` with the four launch weapons (SOP38 Pistol, M1A2 Thompson, SBC Cannon, Sniper Rifle default unlock), the two first-party Intel categories (Flying Razors Intel, Luring Intel), the Trinket / Catalyst Boon / Intel meta-progression layer, and the 2026-09-17 weapon economy rebalance.
+- Updated `CONTENT_INDEX.md` rows for `/lieutenants-bosses`, `/sam-variants`, `/run-tips`, `/weapons-boons` to reflect the new content roles and evidence anchors.

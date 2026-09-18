@@ -371,83 +371,101 @@ The Steam store Supported Languages section for AppID 2067210 is the canonical s
     presentation: {shell:"content",variant:"reading-right-rail"},
     h1: "Serious Sam Shatterverse Bosses and Mental Lieutenants",
     seoTitle: "Serious Sam Shatterverse Bosses and Lieutenant Fights",
-    metaDescription: "Serious Sam Shatterverse bosses include five Mental lieutenants framed as mid-run fights. Get the official framing and per-lieutenant status as of 2026-09-05.",
-    summary: "Serious Sam Shatterverse bosses include five Mental lieutenants framed as mid-run fights. Get the official framing and per-lieutenant status as of 2026-09-05.",
+    metaDescription: "Serious Sam Shatterverse bosses include five named Mental lieutenants — Lava Golem, Inverse Sam, Kleer God, Rogue Netricsa, Reptiloid Highlander — plus Shard of Mental as the final boss.",
+    summary: "Serious Sam Shatterverse bosses include five named Mental lieutenants — Lava Golem, Inverse Sam, Kleer God, Rogue Netricsa, Reptiloid Highlander — plus Shard of Mental as the final boss.",
     hero: {
       subtitle: "Serious Sam Shatterverse Bosses and Mental Lieutenants",
       ctas: [],
     },
     quickAnswer: "Serious Sam Shatterverse Bosses and Mental Lieutenants",
-    keyFacts: [{label: "Research date",value: "2026-09-05"},{label: "Source tier",value: "Official Steam store + Devolver Digital press release"},{label: "Status",value: "complete"}],
+    keyFacts: [{label: "Research date",value: "2026-09-19"},{label: "Source tier",value: "Official Steam store achievements + 2026-09-09 / 2026-09-17 patch notes"},{label: "Status",value: "complete"}],
     modules: [
-      { id: "fixed-lieutenants-bosses-module-1", type: "prose", heading: "Quick Answer", body: `Serious Sam Shatterverse bosses are framed as five Mental lieutenants who serve as mid-run encounters, per the official Steam store description. Individual lieutenant names, visual silhouettes, and combat patterns are not announced as of 2026-09-05. Players should expect the boss lineup to be revealed through Steam Community news, Devolver Digital updates, or developer posts rather than through launch-day store copy.` },
-      { id: "fixed-lieutenants-bosses-module-2", type: "prose", heading: "Why Serious Sam Shatterverse bosses matter in the roguelite loop", body: `The Steam store description for AppID 2067210 frames the launch pitch around hunting "Mental's deadliest forces." That single phrase pairs with two other launch facts that shape how the bosses sit inside the roguelite loop:
+      { id: "fixed-lieutenants-bosses-module-1", type: "prose", heading: "Quick Answer", body: `The five launch Mental lieutenants are Lava Golem, Inverse Sam, Kleer God, Rogue Netricsa, and Reptiloid Highlander, with Shard of Mental as the run-end final boss. The Steam store achievement text names each lieutenant directly, and the 2026-09-17 Shatterverse Balance Update buffed Rogue Netricsa (longer timer and extended explosion animation) while reducing Elite HP scaling on Serious difficulty. Per-lieutenant biome, attack patterns, and counter-build sheets are still partial — the developer has not published a per-boss combat guide.` },
+      { id: "fixed-lieutenants-bosses-module-2", type: "prose", heading: "The five Mental lieutenants and final boss roster", body: `The Steam store achievement text for AppID 2067210 names the full launch roster. Each achievement confirms a lieutenant kill that you can only get by beating the named boss in a real run:
 
-- The store description calls out "five lieutenants, each a formidable boss in search of total annihilation," which fixes the count of lieutenant-class encounters at five.
-- The store description also frames the run as a co-op roguelite FPS with stacked boons and run modifiers, which means each lieutenant fight happens after a run-shaped preparation phase.
+| Lieutenant | Achievement | First-party source |
+| --- | --- | --- |
+| Lava Golem | Not Too Hot To Handle — Defeat the Lava Golem | Steam store achievements list |
+| Inverse Sam | Facing Your Demons — Defeat Inverse Sam | Steam store achievements list |
+| Kleer God | Back To Hell — Defeat the Kleer God | Steam store achievements list |
+| Rogue Netricsa | Aluminum Recycling — Defeat Rogue Netricsa | Steam store achievements list |
+| Reptiloid Highlander | Are You Not Entertained? — Defeat the Reptiloid Highlander | Steam store achievements list |
 
-Together, those three lines tell you that the lieutenants are not a cinematic set piece in the middle of a single campaign. They are a fixed set of mid-run gates that a co-op team prepares for and then fights on every successful run.` },
-      { id: "fixed-lieutenants-bosses-module-3", type: "prose", heading: "What official sources have published", body: `At the research date, three sources can be cited for any current-game claim about Shatterverse bosses:
+Shard of Mental is the run-end final boss: the "Now Do It Again — Defeat Shard of Mental" achievement gates the run-clear progression. The Steam launch news (2026-08-31) frames Shatterverse as "bring down his five lieutenants," and the About text repeats "confront Uber Mental and defeat the five lieutenants." The five lieutenants above are the same roster named by TVTropes coverage and the Steam Community discussions feed.
 
-- The Steam store description for AppID 2067210, which fixes the count at five lieutenants and the framing as mid-run hunts.
-- The Devolver Digital press release dated 2026-08-31, which positions the launch as a roguelite FPS where Mental's lieutenants anchor the end of each run.
-- The Steam Community hub for AppID 2067210, where developer posts and community discussions surface additional encounter detail as launch progresses.
+Because every name above is on a Steam store achievement, you can verify the roster by inspecting the Achievements tab on the AppID 2067210 store page. Treat any other lieutenant name circulating outside that list as community speculation.` },
+      { id: "fixed-lieutenants-bosses-module-3", type: "prose", heading: "What is still partial in the lieutenant cluster", body: `The named roster is locked in by first-party achievements, but the supporting sheets around each lieutenant are still partial. The honest read of the launch state is:
 
-None of those three sources publish per-lieutenant names, attack patterns, or weakness lists. They describe the boss tier as a launch feature, not as a database, so any individual lieutenant sheet you read elsewhere should be treated as community observation.` },
-      { id: "fixed-lieutenants-bosses-module-4", type: "prose", heading: "Per-lieutenant identity and combat pattern status", body: `Players who want a named list of Mental lieutenants or a guide to each combat pattern will not find one in the launch store copy. The store description commits to the count of five and the framing as mid-run bosses, then stops. The honest read of the launch state is:
+- Per-lieutenant biome mapping: partial. The store does not publish a per-boss biome table, so the lava / lava-adjacent theme around the Lava Golem is a naming hint rather than an official biome map.
+- Per-lieutenant attack patterns: partial. No official dodge timing, projectile pattern, or phase-change sheet is on the store page or the patch notes.
+- Per-lieutenant counter builds: partial. No published loadout prescription exists for any specific lieutenant.
+- Lieutenants and earlier Serious Sam enemies: not announced. The store frames them as Mental's lieutenants without mapping them to named enemies from Serious Sam 4 or earlier Croteam-led titles.
 
-- Names: not announced as of 2026-09-05. Behaviour Interactive Inc. has not published a per-lieutenant naming sheet.
-- Combat patterns: not announced as of 2026-09-05. There is no official dodge timing, projectile pattern, or weakness table on the store page.
-- Recommended counters: not announced as of 2026-09-05. There is no published loadout prescription for any specific lieutenant.
+Until Behaviour Interactive Inc. or Devolver Digital publishes a per-boss combat sheet, the loadout advice on this page stays at the "stacked boons + run modifiers" framing rather than naming per-lieutenant counters.` },
+      { id: "fixed-lieutenants-bosses-module-4", type: "prose", heading: "2026-09-17 balance impact on the lieutenant phase", body: `The 2026-09-17 Shatterverse Balance Update directly touches the lieutenant phase in three ways:
 
-Because the launch-day reference is limited to the framing, the next canonical signal will arrive through the Steam store, the Steam Community hub, the verified X handle, or the Devolver Digital press release. If the developer publishes a per-lieutenant sheet, it overrides everything below.` },
-      { id: "fixed-lieutenants-bosses-module-5", type: "prose", heading: "How to plan around an unknown boss lineup", body: `Even without a published boss sheet, the launch store copy supports a few safe plans:
+- Rogue Netricsa timer extended. The lieutenant has a longer combat timer window, so a co-op team has more room to read its phase before the enrage clock starts pressuring the run.
+- Rogue Netricsa explosion animation extended. The detonation sequence plays out longer, which gives more dodge windows during the closing phase of the fight.
+- Elite HP scaling reduced on Serious difficulty. The non-bosslies between lieutenants die faster, so the run reaches the lieutenant gate with more ammo, more boon uptime, and more armor charge than the 2026-09-09 build allowed.
 
-- Read the lieutenant fight as a co-op checkpoint. The store calls them mid-run, which means the team reaches them after the boon-stacking phase. Treat the lieutenant fight as the final exam of a run rather than as a standalone arena.
-- Treat the roguelite loop as the preparation. Stacked boons, run modifiers, and weapon choice are the variables that decide whether a lieutenant fight succeeds, because the store frames them as the inputs to the hunt.
-- Plan for a learning curve. With five lieutenants and no published sheet, the natural progression is to learn one fight per run and rebuild the team loadout for the next attempt.
+The 2026-09-09 Serious Update #1 patched a Rogue Netricsa solo-mode crash, so the lieutenant has been live and engageable since launch. The 2026-09-17 changes are an ease-up, not a rework: existing strategy guides for Rogue Netricsa still apply, but the timer and explosion windows are now more forgiving. The playtest development update also described a Lava Golem rebalance, so the lava lieutenant's numbers may shift in a later patch as well.
 
-These habits are consistent with the launch copy and do not depend on any specific per-lieutenant detail. They will still be useful if a per-lieutenant sheet is published later, because the framing of "stack wild boons, hunt Mental's deadliest forces" does not change.` },
-      { id: "fixed-lieutenants-bosses-module-6", type: "prose", heading: "Where to watch for an official boss sheet", body: `Because the launch store page does not list individual lieutenants, the next signal will arrive through one of four official channels:
+The net effect is that the lieutenant phase of a run is slightly easier in the 2026-09-17 build than it was in the launch build, with the Rogue Netricsa fight specifically receiving the most direct attention.` },
+      { id: "fixed-lieutenants-bosses-module-5", type: "prose", heading: "How to plan around the lieutenant phase", body: `With the named roster locked in but per-boss sheets still partial, a launch-window run plan should treat lieutenants as named gates rather than as a content database:
 
-- The Steam store page for AppID 2067210, which is the canonical fact source for any description, feature list, or character page change.
-- The Steam Community hub at https://steamcommunity.com/app/2067210, where developer posts may add per-lieutenant detail during the launch window.
+- Read the lieutenant fight as a co-op checkpoint. The store calls them mid-run, so the team reaches them after the boon-stacking phase. The lieutenant fight is the final exam of a run rather than a standalone arena.
+- Stack survival and frequency boons for Rogue Netricsa specifically. The 2026-09-17 timer and explosion animation extensions reward a build that can stay in the fight long enough to read the closing sequence.
+- Treat the roguelite loop as the preparation. Stacked boons, run modifiers, and weapon choice decide whether a lieutenant fight succeeds, because the store frames them as the inputs to the hunt.
+- Learn one lieutenant per run. With five lieutenants and only partial per-boss sheets, the fastest way to learn the phase is to die on purpose with a clear stack and bring that data to the next attempt.
+
+These habits are consistent with the launch copy and the 2026-09-17 rebalance notes. They will still be useful if a per-lieutenant sheet is published later, because the framing of "stack wild boons, hunt Mental's deadliest forces" does not change.` },
+      { id: "fixed-lieutenants-bosses-module-6", type: "prose", heading: "Where to watch for an official boss sheet", body: `Because the per-boss sheet is still partial, the next signal will arrive through one of four official channels:
+
+- The Steam store page for AppID 2067210, which is the canonical fact source for any description, feature list, achievement, or character-page update.
+- The Steam Community hub at https://steamcommunity.com/app/2067210, where developer posts add per-lieutenant detail during the launch window — including the 2026-09-09 Serious Update #1 and the 2026-09-17 Shatterverse Balance Update posts that already touched this cluster.
 - The verified X handle at https://x.com/SeriousSamIAm, which is the official development voice for the franchise.
 - The official Serious Sam franchise hub at https://www.serioussam.com/, which cross-links Shatterverse and the broader community.
 
-If Behaviour Interactive Inc. or Devolver Digital publishes a per-lieutenant sheet on Steam or in a press release, those sources become the source of record and the dated status statements above can be revisited.` },
-      { id: "fixed-lieutenants-bosses-module-7", type: "prose", heading: "Frequently Asked Questions", body: `### How many Mental lieutenants are there in Shatterverse?
+If Behaviour Interactive Inc. or Devolver Digital publishes a per-lieutenant combat sheet on Steam or in a press release, those sources become the source of record and the dated status statements above can be revisited.` },
+      { id: "fixed-lieutenants-bosses-module-7", type: "prose", heading: "Frequently Asked Questions", body: `### Who are the five Mental lieutenants in Shatterverse?
 
-The Steam store description names five lieutenants, each a formidable boss in search of total annihilation. That count is the only number the launch copy commits to. Individual lieutenant names are not announced as of 2026-09-05.
+Lava Golem, Inverse Sam, Kleer God, Rogue Netricsa, and Reptiloid Highlander. The Steam store achievement text names each lieutenant by name in the "Not Too Hot To Handle," "Facing Your Demons," "Back To Hell," "Aluminum Recycling," and "Are You Not Entertained?" achievements respectively.
 
-### Are the lieutenants mid-run bosses or campaign bosses?
+### What is the final boss in Shatterverse?
 
-Mid-run. The store description places them inside the co-op roguelite loop, where a run builds toward a lieutenant fight rather than toward a cinematic finale. They reset between runs along with the rest of the loop.
+Shard of Mental is the run-end final boss, gated by the "Now Do It Again — Defeat Shard of Mental" Steam achievement. The five lieutenants sit between the arenas and the Shard of Mental fight.
 
-### Is there a weakness chart for any Shatterverse lieutenant?
+### What changed for the lieutenants in the 2026-09-17 update?
 
-Not announced as of 2026-09-05. There is no published per-lieutenant weakness, projectile pattern, or counter list on the launch store page. Watch the Steam Community hub and the verified X handle for the first official sheet.
+Rogue Netricsa received a longer combat timer and an extended explosion animation, and Elite HP scaling was reduced on Serious difficulty. The 2026-09-09 Serious Update #1 had earlier patched a Rogue Netricsa solo-mode crash.
 
-### Do the lieutenants differ from the standard Mental forces in earlier Serious Sam games?
+### Is there a per-lieutenant weakness chart?
 
-The launch store page frames them as Mental's lieutenants without mapping them to named enemies from earlier Serious Sam titles. The variant team hunts them in the roguelite loop, but cross-game enemy identity is not announced as of 2026-09-05.` },
-      { id: "fixed-lieutenants-bosses-module-8", type: "prose", heading: "Sources", body: `- [Serious Sam: Shatterverse on Steam (AppID 2067210)](https://store.steampowered.com/app/2067210/Serious_Sam_Shatterverse/) - \`official/store\` - checked 2026-09-05 - the count of five Mental lieutenants, the mid-run framing, and the official description used to anchor any per-boss status update.
-- [Devolver Digital press release dated 2026-08-31](https://www.devolverdigital.com/) - \`media/interview\` - checked 2026-08-31 - launch framing for the roguelite FPS, publisher attribution for the lieutenant hunt, and the canonical press surface for any future boss sheet.
-- [Steam Community hub for AppID 2067210](https://steamcommunity.com/app/2067210) - \`official/store\` - checked 2026-09-05 - official news, patch notes, and developer posts that may add per-lieutenant detail over the launch window.` },
+Not yet. The named roster is on the Steam store achievements tab, but per-lieutenant biome mapping, attack patterns, and counter-build sheets are still partial. Watch the Steam Community hub and the verified X handle for the first official sheet.
+
+### Are the lieutenants different from the standard Mental forces in earlier Serious Sam games?
+
+The launch store page frames them as Mental's lieutenants without mapping them to named enemies from earlier Serious Sam titles. They are a 2026 Behaviour Interactive Inc. design rather than a continuation of any named Mental sub-boss from Serious Sam 4 or earlier Croteam-led titles.` },
+      { id: "fixed-lieutenants-bosses-module-8", type: "prose", heading: "Sources", body: `- [Serious Sam: Shatterverse Steam achievements list (AppID 2067210)](https://steamcommunity.com/stats/2067210/achievements/) - \`official/store\` - checked 2026-09-19 - per-lieutenant achievement text naming Lava Golem, Inverse Sam, Kleer God, Rogue Netricsa, Reptiloid Highlander, and Shard of Mental.
+- [Serious Sam: Shatterverse on Steam (AppID 2067210)](https://store.steampowered.com/app/2067210/Serious_Sam_Shatterverse/) - \`official/store\` - checked 2026-09-19 - "bring down his five lieutenants" launch framing and "confront Uber Mental and defeat the five lieutenants" About text.
+- [Serious Sam: Shatterverse Steam news feed (AppID 2067210)](https://store.steampowered.com/feeds/news/app/2067210/) - \`official/store\` - checked 2026-09-19 - 2026-09-09 Serious Update #1 (Rogue Netricsa solo crash fix) and 2026-09-17 Shatterverse Balance Update (Rogue Netricsa timer + explosion animation extension; Elite HP scaling eased on Serious difficulty).
+- [TVTropes article on Serious Sam: Shatterverse](https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/SeriousSamShatterverse) - \`wiki/reference\` - checked 2026-09-19 - same five-lieutenant roster by archetype: lava golem, Reptiloid Highlander, skeletal sorcerer / evil AI / evil doppelganger Sam.
+- [Steam Community hub for AppID 2067210](https://steamcommunity.com/app/2067210) - \`official/store\` - checked 2026-09-19 - launch-window discussions around per-lieutenant strategy threads.` },
       { id: "fixed-lieutenants-bosses-module-9", type: "prose", heading: "Internal Link Requirements", body: `- \`Sam variants and character roster\` -> \`/sam-variants/\` - the multi-universe Sam team that hunts the lieutenants each run.
 - \`Weapons, boons, and modifiers\` -> \`/weapons-boons/\` - the weapon, trinket, and run-modifier pool used to prepare for a lieutenant fight.
 - \`Roguelite run tips\` -> \`/run-tips/\` - early-run habits and boon priority that carry a run to the lieutenant gate.` },
       { id: "fixed-lieutenants-bosses-module-10", type: "prose", heading: "Fact Boundaries", body: `- Current game: Serious Sam: Shatterverse, Steam AppID 2067210, Behaviour Interactive Inc. developer, Devolver Digital publisher, released August 31, 2026 on Steam for Windows 10/11 x64 PCs as a 1-5 player co-op roguelite FPS with online co-op and cross-platform multiplayer.
-- Confirmed framing: the Steam store description commits to five Mental lieutenants as mid-run bosses. The store page does not name individual lieutenants, list combat patterns, or publish weakness charts.
-- Unannounced as of 2026-09-05: per-lieutenant names, attack patterns, projectile layouts, weakness lists, recommended counter loadouts, and any link between Shatterverse lieutenants and named enemies from earlier Serious Sam titles. Treat any such detail from outside the Steam store or Devolver Digital press release as community speculation.
+- Confirmed roster: five launch Mental lieutenants — Lava Golem, Inverse Sam, Kleer God, Rogue Netricsa, Reptiloid Highlander — plus Shard of Mental as the run-end final boss. Each lieutenant is named on the Steam store achievements tab.
+- Confirmed 2026-09-17 changes: Rogue Netricsa timer and explosion-animation extension; Elite HP scaling reduced on Serious difficulty. 2026-09-09 Serious Update #1 patched a Rogue Netricsa solo-mode crash.
+- Partial: per-lieutenant biome mapping, attack patterns, projectile layouts, weakness lists, recommended counter loadouts, and any link between Shatterverse lieutenants and named enemies from earlier Serious Sam titles. Treat any such detail from outside the Steam store achievements tab or the 2026-09-09 / 2026-09-17 patch notes as community speculation.
 - Legacy boundary: the Mental alien force is the long-running Serious Sam antagonist, but the five Shatterverse lieutenants are a 2026 Behaviour Interactive Inc. design and are not a continuation of any named Mental sub-boss from Serious Sam 4 or earlier Croteam-led titles.
-- Source basis: every fact above is anchored to the Steam store AppID 2067210 page, the Devolver Digital press release dated 2026-08-31, or the Steam Community hub for the same AppID, all checked on 2026-09-05.` },
+- Source basis: every fact above is anchored to the Steam store AppID 2067210 page, the Steam achievements list, the Steam news feed for AppID 2067210, or the Steam Community hub for the same AppID, all checked on 2026-09-19.` },
     ],
     faqIds: [],
     relatedPageIds: [],
     schemaTypes: ["Article","BreadcrumbList"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-05",
+    lastReviewed: "2026-09-19",
   },
   {
     id: "fixed-playtest-history",
@@ -806,29 +824,55 @@ Not necessarily. The Mixed band is consistent with many launch-week roguelite sh
     url: "/run-tips",
     pageType: "guides",
     presentation: {shell:"content",variant:"reading-right-rail"},
-    h1: "Serious Sam Shatterverse Tips for Surviving Early Runs",
-    seoTitle: "Serious Sam Shatterverse Tips for Early Run Survival",
-    metaDescription: "Serious Sam Shatterverse tips for early roguelite runs, boon stacking, run modifier selection, and when to spend versus hoard pickups in the launch window.",
-    summary: "Serious Sam Shatterverse tips for early roguelite runs, boon stacking, run modifier selection, and when to spend versus hoard pickups in the launch window.",
+    h1: "Serious Sam Shatterverse Tips, Difficulty Tiers, and Run Survival",
+    seoTitle: "Serious Sam Shatterverse Tips, Difficulty Tiers, and Run Survival",
+    metaDescription: "Serious Sam Shatterverse ships with Normal, Serious Mode, and Mental Mode difficulty tiers. The 2026-09-17 update reworked Mental and Shatterverse starting difficulty, eased Serious HP scaling, and softened 2-player scaling.",
+    summary: "Serious Sam Shatterverse ships with Normal, Serious Mode, and Mental Mode difficulty tiers. The 2026-09-17 update reworked Mental and Shatterverse starting difficulty, eased Serious HP scaling, and softened 2-player scaling.",
     hero: {
-      subtitle: "Serious Sam Shatterverse Tips for Surviving Early Runs",
+      subtitle: "Serious Sam Shatterverse Tips, Difficulty Tiers, and Run Survival",
       ctas: [],
     },
-    quickAnswer: "Serious Sam Shatterverse Tips for Surviving Early Runs",
-    keyFacts: [{label: "Research date",value: "2026-09-05"},{label: "Source tier",value: "Official Steam store + Devolver Digital press release"},{label: "Status",value: "complete"}],
+    quickAnswer: "Serious Sam Shatterverse Tips, Difficulty Tiers, and Run Survival",
+    keyFacts: [{label: "Research date",value: "2026-09-19"},{label: "Source tier",value: "Official Steam store achievements + 2026-09-17 Shatterverse Balance Update"},{label: "Status",value: "complete"}],
     modules: [
-      { id: "fixed-roguelite-run-tips-module-1", type: "prose", heading: "Quick Answer", body: `Serious Sam Shatterverse tips for new runs center on the permadeath roguelite loop, where falling fast and restarting louder is the core promise of the game. The Steam description frames the loop around stacked boons, run modifiers, and Mental lieutenants as mid-run bosses. This guide turns that framing into launch-window habits: a boon stacking mental model, a modifier selection priority, and a rule for when to spend pickups versus save them for the lieutenant fight.` },
-      { id: "fixed-roguelite-run-tips-module-2", type: "prose", heading: "The roguelite loop behind these Serious Sam Shatterverse tips", body: `The Steam store description for AppID 2067210 frames the launch pitch in one sentence: "a co-op roguelite FPS for 1 - 5 players. Blast through shifting universes, stack wild boons, bend the rules with run modifiers, and hunt Mental's deadliest forces. Fall fast. Come back louder." That sentence is the loop, and it is the only frame you need before you start a run.
+      { id: "fixed-roguelite-run-tips-module-1", type: "prose", heading: "Quick Answer", body: `There are three difficulty tiers — Normal, Serious Mode, and Mental Mode — anchored by the Steam achievements "Veteran Multiverse Saver — Complete a run in Serious Mode" and "Professional Sam — Complete a run in Mental Mode." The 2026-09-17 Shatterverse Balance Update reworked Mental Mode and the Shatterverse starting difficulty curve, reduced enemy / Elite / boss HP on Serious Mode, and eased the 2-player scaling penalty. Pick Serious Mode if your squad is still learning the lieutenant phase; pick Mental Mode if the team has cleared a full run at least once.` },
+      { id: "fixed-roguelite-run-tips-module-2", type: "prose", heading: "The three difficulty tiers and what changes between them", body: `The Steam achievement tab for AppID 2067210 lists three run-completion achievements that map to the three difficulty tiers:
 
-The loop has four phases, each of which a launch-window tip can target:
+| Tier | Anchor achievement | What it changes at a high level |
+| --- | --- | --- |
+| Normal | (default tier) | Baseline enemy / Elite / boss HP, baseline 2-player scaling, baseline Shatterverse starting difficulty |
+| Serious Mode | Veteran Multiverse Saver — Complete a run in Serious Mode | Reduced enemy / Elite / boss HP after the 2026-09-17 rebalance; smoother co-op scaling for the 2-player case |
+| Mental Mode | Professional Sam — Complete a run in Mental Mode | Reworked starting difficulty curve on 2026-09-17, intended as the top-end challenge; pairs with a stacked-boon / modifier-heavy build |
 
-- Pick the run modifiers. Modifiers set the rules for the attempt and stay in effect until the run ends.
-- Push through the arenas. Weapons and the starting loadout handle the first fights while boons start to stack.
-- Stack boons. Each boon adds to the previous one, which is the engine that turns the mid-run into the boss fight.
-- Hunt the lieutenant. The run ends at one of the five Mental lieutenants, where the stacked loadout is tested.
+Pick the tier by what your squad has cleared, not by what the achievement text sounds like. The cleanest rules of thumb:
 
-Every habit on this page maps to one of those four phases. If a habit does not map back to one of them, it is probably noise.` },
-      { id: "fixed-roguelite-run-tips-module-3", type: "prose", heading: "Boon stacking mental model", body: `The phrase "stack wild boons" in the store description is the most important launch-window rule. Stacking means each boon adds to the previous one, not that you pick the strongest single boon and ignore the rest. A useful mental model is to think of boons in three buckets:
+- First clear or new squad: Normal. The default tier is the right place to learn the roguelite loop and the lieutenant roster.
+- Comfortable co-op on Normal, want a challenge that still rewards smart play: Serious Mode. The 2026-09-17 HP reductions bring it closer to a fair fight than a tank check.
+- Multiple full clears on Serious Mode and a stacked-boon build that you can repeat: Mental Mode. The 2026-09-17 rework means the Mental Mode starting curve is smoother than the launch build, but it is still the top-end challenge tier.
+
+The Steam Community discussions feed treats difficulty choice as a recurring build-and-squad decision, which matches the achievement-gated structure above.` },
+      { id: "fixed-roguelite-run-tips-module-3", type: "prose", heading: "What the 2026-09-17 update changed for difficulty", body: `The 2026-09-17 Shatterverse Balance Update directly touched every difficulty tier:
+
+- Mental Mode and Shatterverse starting difficulty reworked. The Mental starting curve is smoother in the 2026-09-17 build than in the launch build, and the Shatterverse opening waves no longer spike as hard.
+- Enemy / Elite / boss HP reduced on Serious Mode. The mid-run enemies and Elite units between lieutenant fights die faster, so the run reaches the lieutenant gate with more ammo, more boon uptime, and more armor charge than the launch build allowed.
+- 2-player scaling eased. The 2-player party case used to compound more enemy HP than the 1-player case; the 2026-09-17 patch softens that gap, so a duo no longer takes a brutal scaling penalty just for running with one partner.
+- Bonus: Elite HP scaling reduced on Serious Mode also feeds into the 2026-09-09 Serious Update #1 retroactive easing on Rogue Netricsa and other Elite-class targets.
+
+Net effect: a launch-window player who tried Serious Mode before 2026-09-17 should retry it, because the difficulty curve is meaningfully friendlier in the patched build. The 2026-09-09 Serious Update #1 had already eased some Elite HP scaling, and the 2026-09-17 patch takes the next step on the same axis.` },
+      { id: "fixed-roguelite-run-tips-module-4", type: "prose", heading: "Picking the right tier for your squad", body: `Use the achievement text and the 2026-09-17 patch notes together to pick a tier that matches the squad:
+
+- Solo or duo on a first run: Normal. The default tier lets the team learn modifiers and the lieutenant roster without the 2026-09-17-eased Serious Mode scaling eating into the boon budget.
+- Duo or trio with at least one full clear on Normal: Serious Mode. The reduced enemy / Elite / boss HP makes the lieutenant phase survivable without needing a perfect modifier stack.
+- Full five-player squad with stacked modifiers and a known boon plan: Mental Mode. The reworked starting difficulty curve means Mental Mode rewards a coordinated team rather than punishing a coordinated team.
+
+Tier choice should track squad maturity, not raw enthusiasm. Mental Mode on a first run burns the run before the team reaches the lieutenant gate, while Serious Mode on a five-player stack is a clean win that does not teach anything new.` },
+      { id: "fixed-roguelite-run-tips-module-5", type: "prose", heading: "Boon stacking mental model across the three tiers", body: `The phrase "stack wild boons" in the store description is the most important cross-tier rule. Stacking means each boon adds to the previous one, not that you pick the strongest single boon and ignore the rest. The tier above changes which bucket matters most:
+
+- Normal: balanced stack. Frequency, power, and survival boons should all be in the mix.
+- Serious Mode: lean survival. The reduced HP scaling means you can afford to spend survival boons less often, but a single mistake at the lieutenant gate still ends the run.
+- Mental Mode: lean frequency. The reworked starting difficulty curve punishes downtime, so uptime boons compound the most across a run.
+
+A useful mental model is to think of boons in three buckets:
 
 - Frequency boons. These change how often you can fire, dodge, or interact with the world. They multiply your uptime across the whole run.
 - Power boons. These change how hard each shot or interaction lands. They multiply your peak damage in a single moment.
@@ -844,23 +888,19 @@ The store copy does not publish a per-boon list, but it does commit to the stack
 - Take the boon that extends what is already working. If the team is already strong at peak damage, a survival boon extends the window where that peak damage matters.
 - Skip the boon that doubles down on a saturated stat. If the stack is already strong at peak damage, another pure power boon is the lowest value pick.
 
-These three rules are consistent with the "stack wild boons" framing without needing a published boon list.
-
-### When to ignore a boon
-
-Boons stack, but they also have a cost in attention and slot economy, even if the slot economy is not enumerated on the store page. A launch-window player should ignore a boon when it offers a small bump to a stat the team already has at maximum uptime. The bigger the gap between current stat and current need, the better the boon.` },
-      { id: "fixed-roguelite-run-tips-module-4", type: "prose", heading: "Run modifier selection priority", body: `The phrase "bend the rules with run modifiers" tells you modifiers are about changing the rules of a run rather than about adding raw power. The honest launch read is that the modifier list is not published, but the role of modifiers is clear. They change how a run plays, which means modifier selection is the highest-leverage decision a team makes before the first arena.
+These three rules are consistent with the "stack wild boons" framing without needing a published boon list.` },
+      { id: "fixed-roguelite-run-tips-module-6", type: "prose", heading: "Run modifier selection priority", body: `The phrase "bend the rules with run modifiers" tells you modifiers are about changing the rules of a run rather than about adding raw power. The honest launch read is that the modifier list is not published, but the role of modifiers is clear. They change how a run plays, which means modifier selection is the highest-leverage decision a team makes before the first arena.
 
 A launch-window priority order works even without a named list:
 
 - Pick the modifier that fixes your worst habit. If the team keeps dying to crowd control, the modifier that changes enemy density or projectile speed is the right priority.
-- Pick the modifier that fits the team size. The store page lists 1-5 player co-op, so modifiers that scale with squad size behave differently in a solo run than in a full five-player run.
+- Pick the modifier that fits the team size. The store page lists 1-5 player co-op, so modifiers that scale with squad size behave differently in a solo run than in a full five-player run. The 2026-09-17 2-player scaling ease makes duo runs feel closer to solo than to the launch build.
 - Pick the modifier that matches the chosen boon path. Frequency-heavy stacks want modifiers that give more triggers, while survival-heavy stacks want modifiers that extend fights.
 
 ### Modifier swaps inside a run
 
 Run modifiers are run-level, which means they apply to the whole attempt. A team that picks a modifier it does not like has two real options: finish the run and reset, or commit to the modifier and adjust the boon plan around it. A launch-window tip is to commit early. Mid-run indecision is the most expensive mistake in a roguelite because it costs the run length.` },
-      { id: "fixed-roguelite-run-tips-module-5", type: "prose", heading: "When to spend versus hoard", body: `The store description does not publish a currency or pickup list, but the permadeath loop forces a real spending rule. The cleanest rule on launch day is:
+      { id: "fixed-roguelite-run-tips-module-7", type: "prose", heading: "When to spend versus hoard", body: `The store description does not publish a currency or pickup list, but the permadeath loop forces a real spending rule. The cleanest rule on launch day is:
 
 - Spend pickups that compound during the run. Frequency and survival pickups compound because they extend the window where later pickups still matter.
 - Hoard pickups that only matter at the lieutenant. Pure power pickups compound less during the arenas and matter more at the boss fight, so they are worth saving.
@@ -873,21 +913,37 @@ Most runs lose at the lieutenant fight because the team did not have enough buff
 ### The 20/80 of spending
 
 The other side of the same rule is that pure hoarding also loses runs. If the team hoards everything and never takes a frequency or survival boon mid-run, the arenas take too long and the run runs out of clock before the lieutenant even appears. Spend early, hoard late.` },
-      { id: "fixed-roguelite-run-tips-module-6", type: "prose", heading: "Co-op habits that carry the run", body: `The store page lists 1-5 player online co-op and cross-platform multiplayer, which means most runs will be shared. Three co-op habits matter in the launch window:
+      { id: "fixed-roguelite-run-tips-module-8", type: "prose", heading: "Co-op habits that carry the run", body: `The store page lists 1-5 player online co-op and cross-platform multiplayer, which means most runs will be shared. Three co-op habits matter in the launch window:
 
 - Pick a role per run. Even without a published ability sheet, the multi-universe Sam framing implies distinct roles. Choose a frequency role, a power role, or a survival role and stick to it for the run.
 - Share pickups by need, not by greed. The boon that fixes the weakest link compounds for the whole team, so distribute with intent.
 - Call the modifier choice before the run starts. Modifiers are run-level, so the team has to agree on the rules before the first arena. Mid-run argument about rules is wasted time.
 
-These habits are consistent with the launch copy and do not depend on any named weapon, boon, or modifier.` },
-      { id: "fixed-roguelite-run-tips-module-7", type: "prose", heading: "Launch-window discipline", body: `A launch-window run is shaped more by discipline than by perfect picks. The store description frames the loop as "Fall fast. Come back louder," which is itself a discipline rule. Three launch-window rules follow:
+The 2026-09-17 2-player scaling ease means a duo no longer takes the launch-build penalty for running with one partner, so the modifier-and-role call can be made on actual preference rather than on a scaling workaround.` },
+      { id: "fixed-roguelite-run-tips-module-9", type: "prose", heading: "Launch-window discipline", body: `A launch-window run is shaped more by discipline than by perfect picks. The store description frames the loop as "Fall fast. Come back louder," which is itself a discipline rule. Three launch-window rules follow:
 
 - Keep the first ten runs short. The goal of an early run is to learn the modifier, not to clear the lieutenant. Quit or die early and reset.
 - Reset on a bad modifier, not on a bad arena. A bad arena can be pushed with a good stack. A bad modifier cannot.
 - Treat each lieutenant death as data. Five lieutenants means five patterns to learn, and the fastest way to learn them is to die on purpose with a clear stack.
 
 These rules do not change when Behaviour Interactive Inc. publishes a named loot sheet. They will still work after the first patch, after the first balance pass, and after the first post-launch modifier rotation.` },
-      { id: "fixed-roguelite-run-tips-module-8", type: "prose", heading: "Frequently Asked Questions", body: `### What is the most important Shatterverse tip for a new player?
+      { id: "fixed-roguelite-run-tips-module-10", type: "prose", heading: "Frequently Asked Questions", body: `### What difficulty tiers does Shatterverse have?
+
+Normal, Serious Mode, and Mental Mode. The "Veteran Multiverse Saver — Complete a run in Serious Mode" and "Professional Sam — Complete a run in Mental Mode" achievements confirm the tier names.
+
+### What changed in the 2026-09-17 Shatterverse Balance Update?
+
+Mental Mode and the Shatterverse starting difficulty curve were reworked, enemy / Elite / boss HP on Serious Mode was reduced, and the 2-player scaling penalty was eased. The 2026-09-09 Serious Update #1 had already eased some Elite HP scaling, so the 2026-09-17 patch is the second wave on the same axis.
+
+### Which difficulty tier should I pick?
+
+Pick Normal for a first run or a new squad. Pick Serious Mode once your squad has cleared Normal at least once and wants a challenge that still rewards smart play. Pick Mental Mode once the team has stacked clears on Serious Mode and can repeat a stacked-boon build.
+
+### Does team size change the run tips?
+
+The Steam store lists 1-5 player online co-op and cross-platform multiplayer. The 2026-09-17 2-player scaling ease makes duo runs feel closer to solo than the launch build did. A solo run leans more on survival and frequency boons because there is no one to share pickups with, while a full five-player run can specialize and stack pure power for the lieutenant phase.
+
+### What is the most important Shatterverse tip for a new player?
 
 Treat boons as a stack rather than as a single pick. The Steam description uses the phrase "stack wild boons," which means each boon compounds the previous one. A balanced stack of frequency, power, and survival boons beats an all-in power stack in most runs.
 
@@ -901,28 +957,27 @@ Hoard pickups that only matter at the lieutenant, such as pure power pickups, an
 
 ### Can I carry progress between runs?
 
-The Steam description frames the game as a permadeath roguelite where the team "falls fast and comes back louder." That framing is consistent with a clean reset between runs. Any meta-progression tied to a specific variant is not announced as of 2026-09-05.
-
-### Does team size change the run tips?
-
-The Steam store lists 1-5 player online co-op and cross-platform multiplayer. A solo run leans more on survival and frequency boons because there is no one to share pickups with, while a full five-player run can specialize and stack pure power for the lieutenant phase.` },
-      { id: "fixed-roguelite-run-tips-module-9", type: "prose", heading: "Sources", body: `- [Serious Sam: Shatterverse on Steam (AppID 2067210)](https://store.steampowered.com/app/2067210/Serious_Sam_Shatterverse/) - \`official/store\` - checked 2026-09-05 - official game description with the permadeath roguelite loop, "stack wild boons, bend the rules with run modifiers" framing, 1-5 player co-op and cross-platform multiplayer features, and the canonical store page for any future tip update.
-- [Steam Community hub for AppID 2067210](https://steamcommunity.com/app/2067210) - \`official/store\` - checked 2026-09-05 - official news, patch notes, and community discussions used to cross-check launch-window habits.
-- [Verified Serious Sam X handle](https://x.com/SeriousSamIAm) - \`community/video\` - checked 2026-09-05 - official development posts and developer signals that may add launch-window run guidance.` },
-      { id: "fixed-roguelite-run-tips-module-10", type: "prose", heading: "Internal Link Requirements", body: `- \`Weapons, boons, and modifiers\` -> \`/weapons-boons/\` - the weapon, trinket, and run-modifier pool that this guide turns into habits.
+The Steam description frames the game as a permadeath roguelite where the team "falls fast and comes back louder." That framing is consistent with a clean reset between runs. Any meta-progression tied to a specific variant is not announced as of 2026-09-19.` },
+      { id: "fixed-roguelite-run-tips-module-11", type: "prose", heading: "Sources", body: `- [Serious Sam: Shatterverse Steam achievements list (AppID 2067210)](https://steamcommunity.com/stats/2067210/achievements/) - \`official/store\` - checked 2026-09-19 - "Veteran Multiverse Saver — Complete a run in Serious Mode" and "Professional Sam — Complete a run in Mental Mode" anchoring the three difficulty tiers.
+- [Serious Sam: Shatterverse on Steam (AppID 2067210)](https://store.steampowered.com/app/2067210/Serious_Sam_Shatterverse/) - \`official/store\` - checked 2026-09-19 - permadeath roguelite loop, "stack wild boons, bend the rules with run modifiers" framing, 1-5 player co-op and cross-platform multiplayer features, and the canonical store page for any future difficulty change.
+- [Serious Sam: Shatterverse Steam news feed (AppID 2067210)](https://store.steampowered.com/feeds/news/app/2067210/) - \`official/store\` - checked 2026-09-19 - 2026-09-17 Shatterverse Balance Update reworking Mental Mode starting difficulty, reducing enemy / Elite / boss HP on Serious, and easing 2-player scaling; 2026-09-09 Serious Update #1 for earlier Elite HP scaling easing.
+- [Steam Community hub for AppID 2067210](https://steamcommunity.com/app/2067210) - \`official/store\` - checked 2026-09-19 - launch-window discussions where difficulty choice is treated as a recurring build-and-squad decision.` },
+      { id: "fixed-roguelite-run-tips-module-12", type: "prose", heading: "Internal Link Requirements", body: `- \`Weapons, boons, and modifiers\` -> \`/weapons-boons/\` - the weapon, trinket, and run-modifier pool that this guide turns into habits.
 - \`Sam variants and character roster\` -> \`/sam-variants/\` - the multi-universe Sam team whose roles shape a co-op run.
 - \`Mental lieutenants and bosses\` -> \`/lieutenants-bosses/\` - the five mid-run gates that the run tips prepare the team to fight.` },
-      { id: "fixed-roguelite-run-tips-module-11", type: "prose", heading: "Fact Boundaries", body: `- Current game: Serious Sam: Shatterverse, Steam AppID 2067210, Behaviour Interactive Inc. developer, Devolver Digital publisher, released August 31, 2026 on Steam for Windows 10/11 x64 PCs as a 1-5 player co-op roguelite FPS with online co-op and cross-platform multiplayer.
+      { id: "fixed-roguelite-run-tips-module-13", type: "prose", heading: "Fact Boundaries", body: `- Current game: Serious Sam: Shatterverse, Steam AppID 2067210, Behaviour Interactive Inc. developer, Devolver Digital publisher, released August 31, 2026 on Steam for Windows 10/11 x64 PCs as a 1-5 player co-op roguelite FPS with online co-op and cross-platform multiplayer.
+- Confirmed difficulty tiers: Normal, Serious Mode, Mental Mode — anchored by the Steam achievements "Veteran Multiverse Saver" (Serious Mode run complete) and "Professional Sam" (Mental Mode run complete).
+- Confirmed 2026-09-17 changes: Mental Mode and Shatterverse starting difficulty reworked, enemy / Elite / boss HP reduced on Serious Mode, 2-player scaling eased. 2026-09-09 Serious Update #1 had earlier eased some Elite HP scaling.
 - Confirmed framing: the Steam store description commits to the permadeath roguelite loop, stacked boons, run modifiers, and five Mental lieutenants as mid-run bosses. The store page does not publish per-boon, per-weapon, or per-modifier lists, so every habit on this page stays within the framing rather than naming specific boons.
-- Unannounced as of 2026-09-05: per-Sam ability sheets, per-lieutenant combat patterns, the full weapon and boon pool, the full run modifier list, and any meta-progression that carries between runs. Treat any such detail from outside the Steam store, the Steam Community hub, or the verified X handle as community observation rather than official guidance.
-- Launch-window scope: every tip on this page is "as observed 2026-09-05 launch window" and reflects the store copy rather than any post-launch patch. Behaviour Interactive Inc. or Devolver Digital may add a named loot sheet or a balance pass that changes the relative value of the habits above.
-- Source basis: every fact above is anchored to the Steam store AppID 2067210 page, the Steam Community hub for the same AppID, or the verified X handle, all checked on 2026-09-05.` },
+- Partial: per-Sam ability sheets, per-lieutenant combat patterns, the full weapon and boon pool, the full run modifier list, and any meta-progression that carries between runs. Treat any such detail from outside the Steam store, the Steam Community hub, or the verified X handle as community observation rather than official guidance.
+- Patch-window scope: every tip on this page reflects the 2026-09-17 build of the game and the launch copy. Behaviour Interactive Inc. or Devolver Digital may add a named loot sheet or another balance pass that changes the relative value of the habits above.
+- Source basis: every fact above is anchored to the Steam store AppID 2067210 page, the Steam achievements list, the Steam news feed for AppID 2067210, or the Steam Community hub for the same AppID, all checked on 2026-09-19.` },
     ],
     faqIds: [],
     relatedPageIds: [],
     schemaTypes: ["Article","BreadcrumbList"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-05",
+    lastReviewed: "2026-09-19",
   },
   {
     id: "fixed-sam-variants-characters",
@@ -935,84 +990,101 @@ The Steam store lists 1-5 player online co-op and cross-platform multiplayer. A 
     presentation: {shell:"content",variant:"reading-right-rail"},
     h1: "Serious Sam Shatterverse Sam Variants and Character Roster",
     seoTitle: "Serious Sam Shatterverse Sam Variants and Roster",
-    metaDescription: "Serious Sam Shatterverse Sam variants are a multi-universe roster of Sam Stone. Get the official team framing and per-variant ability status as of 2026-09-05.",
-    summary: "Serious Sam Shatterverse Sam variants are a multi-universe roster of Sam Stone. Get the official team framing and per-variant ability status as of 2026-09-05.",
+    metaDescription: "Serious Sam Shatterverse ships with five launch Sam variants — Retro Sam, Cartoon Sam, plus three more — each with a per-variant ultimate ability. See the 2026-09-09 Retro Sam fix and the variant count.",
+    summary: "Serious Sam Shatterverse ships with five launch Sam variants — Retro Sam, Cartoon Sam, plus three more — each with a per-variant ultimate ability. See the 2026-09-09 Retro Sam fix and the variant count.",
     hero: {
       subtitle: "Serious Sam Shatterverse Sam Variants and Character Roster",
       ctas: [],
     },
     quickAnswer: "Serious Sam Shatterverse Sam Variants and Character Roster",
-    keyFacts: [{label: "Research date",value: "2026-09-05"},{label: "Source tier",value: "Official Steam store + Devolver Digital press release"},{label: "Status",value: "complete"}],
+    keyFacts: [{label: "Research date",value: "2026-09-19"},{label: "Source tier",value: "Official Steam store achievements + launch news + 2026-09-09 patch notes"},{label: "Status",value: "complete"}],
     modules: [
-      { id: "fixed-sam-variants-characters-module-1", type: "prose", heading: "Quick Answer", body: `Serious Sam Shatterverse Sam variants are multiple-universe versions of Sam Stone who must learn to work together, per the official Steam store description. The store frames the cast as a cooperative roster drawn from different realities but does not list per-Sam names, signatures, or unlock paths. Per-variant ability rosters are not announced as of 2026-09-05, so any specific ability breakdown should be treated as community speculation until Behaviour Interactive Inc. or Devolver Digital publishes one.` },
-      { id: "fixed-sam-variants-characters-module-2", type: "prose", heading: "Why Serious Sam Shatterverse Sam variants form a multi-universe team", body: `The Steam store description for AppID 2067210 frames Shatterverse around "Serious Sams from multiple universes who must learn to work together." That single sentence sets up two facts the rest of the page needs to respect:
+      { id: "fixed-sam-variants-characters-module-1", type: "prose", heading: "Quick Answer", body: `The launch roster is five Sam variants. Steam launch news (2026-08-31) says "Pick from five totally different versions of Sam (yes, including the cartoon one)," and the Steam achievement "Sam-of-All-Trades — Use all 5 Sams' ultimate abilities at least one time" confirms a per-variant ultimate ability on each of the five. Retro Sam and Cartoon Sam are first-party confirmed by launch news and the 2026-09-09 Serious Update #1 patch notes; Alien Sam, Orphan Sam, and Broken Sam are flagged as second-party-evidence only and still await a first-party confirmation on the Steam store.` },
+      { id: "fixed-sam-variants-characters-module-2", type: "prose", heading: "The five-variant launch roster", body: `The Steam launch news, the Achievements tab, and the 2026-09-09 Serious Update #1 patch notes triangulate to a five-variant launch roster. Two variants are first-party confirmed by name, and three more are flagged here as second-party:
 
-- The hero roster is plural, not a single protagonist. Players run the game as a team rather than as a lone Sam, which matches the 1-5 player co-op cap on the store page.
-- The Sams come from different universes. The shifting-universes theme in the official tagline maps each variant to a different version of Sam Stone rather than to a palette swap.
+| Variant | Confirmation tier | Source evidence |
+| --- | --- | --- |
+| Retro Sam | First-party | 2026-08-31 Steam launch news + 2026-09-09 Serious Update #1 patch notes (decoy clone + Luring Intel interaction fix) |
+| Cartoon Sam | First-party | 2026-08-31 Steam launch news + 2026-07-31 playtest development update (modifier set: slower base movement, faster Dash recharge, larger default explosions) |
+| Alien Sam | Second-party | Community coverage; awaiting first-party naming on the Steam store |
+| Orphan Sam | Second-party | Community coverage; awaiting first-party naming on the Steam store |
+| Broken Sam | Second-party | Community coverage; awaiting first-party naming on the Steam store |
 
-Because the store page treats the team as a core hook, the variants are a launch-day topic for anyone planning who to bring into a run. The store page does not, however, name them, assign ability tags, or describe how they unlock, so the launch-window reference for any specific variant is limited.` },
-      { id: "fixed-sam-variants-characters-module-3", type: "prose", heading: "What official sources have published", body: `At the research date, the only confirmed material about the Shatterverse cast comes from three places:
+The Steam achievement "Sam-of-All-Trades — Use all 5 Sams' ultimate abilities at least one time" confirms a per-variant ultimate ability on each of the five. Treat the three second-party names as the working roster until Behaviour Interactive Inc. or Devolver Digital names them on the Steam store, in a Steam Community news post, or in a verified X handle post.
 
-- The Steam store description for AppID 2067210, which names the multi-universe premise and the cooperative framing.
-- The Devolver Digital press release dated 2026-08-31, which positions the launch as a co-op roguelite FPS with a roster of variants.
-- The Steam Community hub for AppID 2067210, where developer posts and community discussions may surface additional character details as launch progresses.
+The 2026-09-09 Serious Update #1 also explicitly patched a Retro Sam interaction with Luring Intel: the decoy clone spawned by Retro Sam's ultimate ability now respects the Luring Intel trigger correctly, which removes a common community confusion from the launch build. Players running Retro Sam with a Luring Intel boon should notice the decoy pulling enemies on the same beat as their own shots.` },
+      { id: "fixed-sam-variants-characters-module-3", type: "prose", heading: "Per-variant ultimate abilities", body: `The Steam achievement text confirms every variant has an ultimate ability, and the playtest development update confirms two of them by name. The complete launch read is:
 
-None of those three sources publish a per-variant ability sheet. They describe the roster as a hook, not as a database, so the canonical list of names, weapons, abilities, and unlock conditions is not announced as of 2026-09-05. If the developer adds official character pages on the Steam store or on serioussam.com, those pages become the source of record.` },
-      { id: "fixed-sam-variants-characters-module-4", type: "prose", heading: "Per-variant ability roster status", body: `Players searching for the ability that distinguishes one Sam from another will not find a published sheet on launch day. The store description says the team "must learn to work together," which implies distinct roles, but it does not enumerate them. Treat any specific breakdown you see online as a fan or community observation rather than an official list.
+- Retro Sam: ultimate spawns a decoy clone that draws enemy fire. The 2026-09-09 Serious Update #1 patch repaired the decoy's interaction with Luring Intel so the clone pulls enemies on the same beat as the player.
+- Cartoon Sam: ultimate modifier set makes Dash recharge faster than the other variants (to compensate for a slower base movement) and gives explosions a larger default radius. The cartoon proportions trade raw movement for survivability through Dash uptime and crowd-clear radius.
+- Alien Sam, Orphan Sam, Broken Sam: ultimate ability signals are not first-party published as of 2026-09-19. They remain partial.
 
-Two practical rules follow from this status:
+Because the "Sam-of-All-Trades" achievement is gated on using all five ultimate abilities at least once, the developer has confirmed that all five variants are usable in a single play session. The achievement is the cleanest first-party signal that the five-variant roster is the launch scope rather than a wider back-catalog.` },
+      { id: "fixed-sam-variants-characters-module-4", type: "prose", heading: "What is still partial in the Sam variant cluster", body: `The launch variant count and the first-party names above are locked in, but several supporting sheets are still partial:
 
-- Do not plan a run around a specific Sam ability until Behaviour Interactive Inc. confirms it through the store page, a Steam Community news post, or a developer social channel.
-- Do not write or quote a per-variant ability list as fact. Wait for the official roster sheet.
+- Second-party names confirmation: Alien Sam, Orphan Sam, and Broken Sam are flagged as second-party. The Steam store page and Achievements tab do not yet name them as of 2026-09-19.
+- Per-variant unlock / DLC roadmap: not announced. There is no published DLC roadmap or post-launch variant unlock track.
+- Per-variant stat blocks (health, speed, ability cooldown): not first-party published.
+- Single-player variant swap: not announced. The store page lists 1-5 player co-op and cross-platform multiplayer; whether a single player can rotate between variants inside a run is unconfirmed.
 
-If a player wants the closest thing to a published roster at launch, the Steam store's screenshots and the Devolver Digital press release imagery are the cleanest place to start, because both are checked through the same official channels that publish the description.` },
-      { id: "fixed-sam-variants-characters-module-5", type: "prose", heading: "How a variant fits into the roguelite loop", body: `The store description pairs the multi-universe Sam team with two other launch facts: run modifiers and stacked boons. That pairing tells you how variants are likely to interact with the rest of the loop, even without a published ability sheet:
+Until Behaviour Interactive Inc. or Devolver Digital publishes a per-variant stat sheet, the practical guidance is to use the playtest development update's Cartoon Sam and Retro Sam descriptions as the most reliable per-variant signal on the roster, then wait for the first-party sheet before quoting other variants by name.` },
+      { id: "fixed-sam-variants-characters-module-5", type: "prose", heading: "How a variant fits into the roguelite loop", body: `The store description pairs the multi-universe Sam team with run modifiers and stacked boons. That pairing tells you how variants interact with the rest of the loop, even without a complete ability sheet:
 
-- Variants are the operators. A Sam variant is the chassis that carries weapons, trinkets, and boons into a run, and the chassis sets the baseline stats and signature behavior.
+- Variants are the operators. A Sam variant is the chassis that carries weapons, trinkets, and boons into a run, and the chassis sets the baseline movement, ultimate ability, and signature behavior.
 - Boons and modifiers are the variables. Per-run modifiers and stacked boons shape what a variant can do on any given attempt, which is why the store frames the loop as "stack wild boons, bend the rules with run modifiers."
 - The permadeath loop is the constraint. Variants reset between runs, so any meta-progression tied to a specific Sam is the natural place for unlockable content once the developer publishes the roster sheet.
 
-Reading the store description this way is consistent with the launch-window experience without overpromising on abilities that have not been enumerated yet.` },
-      { id: "fixed-sam-variants-characters-module-6", type: "prose", heading: "Where to watch for an official roster sheet", body: `Because the launch store page does not list per-Sam abilities, the next signal will arrive through one of four official channels. Players who want the authoritative answer should watch these surfaces:
+Reading the store description this way is consistent with the launch-window experience and the Retro Sam / Cartoon Sam signals without overpromising on abilities that have not been enumerated yet.` },
+      { id: "fixed-sam-variants-characters-module-6", type: "prose", heading: "Where to watch for an official roster sheet", body: `Because the launch store page does not list per-Sam abilities and three variant names are still second-party, the next signal will arrive through one of four official channels:
 
-- The Steam store page for AppID 2067210, which is the canonical fact source for any change to the description, feature list, or character pages.
-- The Steam Community hub at https://steamcommunity.com/app/2067210, where Devolver Digital and Behaviour Interactive Inc. post news and patch notes that may add per-Sam detail.
+- The Steam store page for AppID 2067210, which is the canonical fact source for any description, feature list, achievement, or character-page update.
+- The Steam Community hub at https://steamcommunity.com/app/2067210, where Devolver Digital and Behaviour Interactive Inc. post news and patch notes — including the 2026-09-09 Serious Update #1 Retro Sam fix already in the launch window.
 - The verified X handle at https://x.com/SeriousSamIAm, which is the official development voice for the franchise.
 - The official Serious Sam franchise hub at https://www.serioussam.com/, which cross-links Shatterverse and the broader community.
 
-If and when Behaviour Interactive Inc. publishes per-variant pages on the Steam store, those pages become the new source of record and the dated status statements on this page can be revisited.` },
+If and when Behaviour Interactive Inc. publishes per-variant pages on the Steam store or a Steam Community news post that names the three remaining variants first-party, those sources become the source of record.` },
       { id: "fixed-sam-variants-characters-module-7", type: "prose", heading: "Frequently Asked Questions", body: `### How many Sam Stone variants are in Shatterverse?
 
-The Steam store description names "Serious Sams from multiple universes" without giving a number. The exact count of playable variants is not announced as of 2026-09-05, so any specific number should be treated as community speculation until the developer publishes a roster sheet.
+Five. The Steam launch news explicitly says "Pick from five totally different versions of Sam (yes, including the cartoon one)," and the Steam achievement "Sam-of-All-Trades" requires using all 5 Sams' ultimate abilities at least one time.
+
+### Which Sam variants are first-party confirmed?
+
+Retro Sam and Cartoon Sam are first-party confirmed by the 2026-08-31 Steam launch news and the 2026-09-09 Serious Update #1 patch notes. Three more variants circulate in community coverage (Alien Sam, Orphan Sam, Broken Sam), but they are flagged here as second-party until Behaviour Interactive Inc. or Devolver Digital names them on the Steam store, in a Steam Community news post, or on the verified X handle.
 
 ### Do Shatterverse Sam variants have different abilities?
 
-The store implies distinct roles because the team "must learn to work together," but per-variant ability rosters are not announced as of 2026-09-05. Watch the Steam store, the Steam Community hub, and the verified X handle for the official ability sheet.
+Yes. Every variant has a per-variant ultimate ability, per the "Sam-of-All-Trades" achievement. Retro Sam's ultimate spawns a decoy clone (patched in 2026-09-09 to interact correctly with Luring Intel). Cartoon Sam's modifier set trades base movement for faster Dash recharge and larger default explosions.
+
+### What changed for Retro Sam in the 2026-09-09 update?
+
+The 2026-09-09 Serious Update #1 fixed Retro Sam's decoy clone interaction with Luring Intel, so the decoy now pulls enemies on the same beat as the player's shots.
 
 ### Can I play more than one Sam variant in the same run?
 
-The store page lists 1-5 player online co-op and cross-platform multiplayer, which means multiple players can drop into the same run. Whether a single player can swap between variants inside a run is not announced as of 2026-09-05.
+The store page lists 1-5 player online co-op and cross-platform multiplayer, which means multiple players can drop into the same run. Whether a single player can swap between variants inside a run is not announced as of 2026-09-19.
 
 ### Is Sam Stone in Shatterverse the same Sam Stone as Serious Sam 4?
 
 No. Serious Sam: Shatterverse is a 2026 co-op roguelite FPS by Behaviour Interactive Inc. and Devolver Digital. Serious Sam 4 is a 2020 linear campaign by Croteam. The Sam Stone variants in Shatterverse are unique to the roguelite roster and are not a continuation of the Serious Sam 4 protagonist.` },
-      { id: "fixed-sam-variants-characters-module-8", type: "prose", heading: "Sources", body: `- [Serious Sam: Shatterverse on Steam (AppID 2067210)](https://store.steampowered.com/app/2067210/Serious_Sam_Shatterverse/) - \`official/store\` - checked 2026-09-05 - multi-universe Sam team framing, official game description, 1-5 player co-op and cross-platform multiplayer features, and the canonical store page for any per-variant roster update.
-- [Devolver Digital press release dated 2026-08-31](https://www.devolverdigital.com/) - \`media/interview\` - checked 2026-09-05 - launch framing for the co-op roguelite FPS and publisher attribution for the Sam variant roster.
-- [Steam Community hub for AppID 2067210](https://steamcommunity.com/app/2067210) - \`official/store\` - checked 2026-09-05 - official news, patch notes, and developer posts that may add per-variant detail over the launch window.` },
+      { id: "fixed-sam-variants-characters-module-8", type: "prose", heading: "Sources", body: `- [Serious Sam: Shatterverse Steam achievements list (AppID 2067210)](https://steamcommunity.com/stats/2067210/achievements/) - \`official/store\` - checked 2026-09-19 - "Sam-of-All-Trades — Use all 5 Sams' ultimate abilities at least one time" confirming five variants with per-variant ultimates.
+- [Serious Sam: Shatterverse on Steam (AppID 2067210)](https://store.steampowered.com/app/2067210/Serious_Sam_Shatterverse/) - \`official/store\` - checked 2026-09-19 - "Pick from five totally different versions of Sam (yes, including the cartoon one)" launch framing and the multi-universe Sam team description.
+- [Serious Sam: Shatterverse Steam news feed (AppID 2067210)](https://store.steampowered.com/feeds/news/app/2067210/) - \`official/store\` - checked 2026-09-19 - 2026-09-09 Serious Update #1 naming Retro Sam with the decoy clone + Luring Intel fix.
+- [Steam Community hub for AppID 2067210](https://steamcommunity.com/app/2067210) - \`official/store\` - checked 2026-09-19 - launch-window discussions, the "How do you dual wield in this game??" question thread (community/video), and the post-launch news feed.` },
       { id: "fixed-sam-variants-characters-module-9", type: "prose", heading: "Internal Link Requirements", body: `- \`Mental lieutenants and bosses\` -> \`/lieutenants-bosses/\` - the five Mental lieutenant mid-run bosses that the variant team hunts each run.
 - \`Weapons, boons, and modifiers\` -> \`/weapons-boons/\` - the weapon, trinket, and run-modifier pool that variants carry into a run.
 - \`Roguelite run tips\` -> \`/run-tips/\` - early-run habits, boon stacking priorities, and modifier selection for new variants.` },
       { id: "fixed-sam-variants-characters-module-10", type: "prose", heading: "Fact Boundaries", body: `- Current game: Serious Sam: Shatterverse, Steam AppID 2067210, Behaviour Interactive Inc. developer, Devolver Digital publisher, released August 31, 2026 on Steam for Windows 10/11 x64 PCs as a 1-5 player co-op roguelite FPS with online co-op and cross-platform multiplayer.
-- Confirmed framing: the Steam store description names "Serious Sams from multiple universes who must learn to work together." The store page does not enumerate names, abilities, or unlock paths for any individual variant.
-- Unannounced as of 2026-09-05: the number of playable variants, per-Sam ability rosters, signature weapons, unlock conditions, and any single-player variant swap system. Treat any such detail from outside the Steam store or Devolver Digital press release as community speculation.
+- Confirmed launch roster: five Sam variants. Retro Sam and Cartoon Sam are first-party confirmed by Steam launch news and the 2026-09-09 Serious Update #1 patch notes. Three further variants (Alien Sam, Orphan Sam, Broken Sam) are flagged as second-party until the Steam store or Steam Community news post names them first-party.
+- Confirmed per-variant ultimates: each of the five variants has a per-variant ultimate ability (Sam-of-All-Trades achievement). Retro Sam's decoy clone interacts correctly with Luring Intel after the 2026-09-09 fix. Cartoon Sam trades base movement for faster Dash recharge and larger default explosions.
+- Partial: per-variant stat blocks, the first-party names of the three second-party variants, any DLC roadmap or post-launch variant unlock track, and single-player variant swap. Treat any such detail from outside the Steam store or the 2026-09-09 patch notes as community observation.
 - Legacy boundary: Sam Stone is the franchise protagonist, but Shatterverse variants are a 2026 Behaviour Interactive Inc. design and are not a continuation of the Serious Sam 4 protagonist or any earlier Croteam-led Sam Stone.
-- Source basis: every fact above is anchored to the Steam store AppID 2067210 page, the Devolver Digital press release dated 2026-08-31, or the Steam Community hub for the same AppID, all checked on 2026-09-05.` },
+- Source basis: every fact above is anchored to the Steam store AppID 2067210 page, the Steam achievements list, the Steam news feed for AppID 2067210, or the Steam Community hub for the same AppID, all checked on 2026-09-19.` },
     ],
     faqIds: [],
     relatedPageIds: [],
     schemaTypes: ["Article","BreadcrumbList"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-05",
+    lastReviewed: "2026-09-19",
   },
   {
     id: "fixed-steam-deck",
@@ -1375,93 +1447,127 @@ Not required. Shatterverse is a standalone roguelite title; the Croteam-era game
     url: "/weapons-boons",
     pageType: "wiki",
     presentation: {shell:"content",variant:"reading-right-rail"},
-    h1: "Serious Sam Shatterverse Weapons, Boons, and Run Modifiers",
-    seoTitle: "Serious Sam Shatterverse Weapons, Boons, and Modifiers",
-    metaDescription: "Serious Sam Shatterverse weapons pair with stacked boons and run modifiers. Get the official framing, modifier rules, and loadout status as of 2026-09-05.",
-    summary: "Serious Sam Shatterverse weapons pair with stacked boons and run modifiers. Get the official framing, modifier rules, and loadout status as of 2026-09-05.",
+    h1: "Serious Sam Shatterverse Weapons, Intel, Boons, and Run Modifiers",
+    seoTitle: "Serious Sam Shatterverse Weapons, Intel, Boons, and Modifiers",
+    metaDescription: "Serious Sam Shatterverse launch weapons include the SOP38 Pistol, M1A2 Thompson, SBC Cannon, and Sniper Rifle (default unlock). Intel categories include Flying Razors and Luring Intel. The 2026-09-17 update reshaped the weapon economy.",
+    summary: "Serious Sam Shatterverse launch weapons include the SOP38 Pistol, M1A2 Thompson, SBC Cannon, and Sniper Rifle (default unlock). Intel categories include Flying Razors and Luring Intel. The 2026-09-17 update reshaped the weapon economy.",
     hero: {
-      subtitle: "Serious Sam Shatterverse Weapons, Boons, and Run Modifiers",
+      subtitle: "Serious Sam Shatterverse Weapons, Intel, Boons, and Run Modifiers",
       ctas: [],
     },
-    quickAnswer: "Serious Sam Shatterverse Weapons, Boons, and Run Modifiers",
-    keyFacts: [{label: "Research date",value: "2026-09-05"},{label: "Source tier",value: "Official Steam store + Devolver Digital press release"},{label: "Status",value: "complete"}],
+    quickAnswer: "Serious Sam Shatterverse Weapons, Intel, Boons, and Run Modifiers",
+    keyFacts: [{label: "Research date",value: "2026-09-19"},{label: "Source tier",value: "Official Steam store achievements + 2026-09-09 / 2026-09-17 patch notes + playtest dev update"},{label: "Status",value: "complete"}],
     modules: [
-      { id: "fixed-weapons-boons-module-1", type: "prose", heading: "Quick Answer", body: `Serious Sam Shatterverse weapons sit inside a roguelite pool that the Steam store description frames as stacking wild boons and bending the rules with run modifiers. The launch store page does not itemize individual weapons, trinkets, or boon categories as of 2026-09-05, so any specific loadout list should be treated as unofficial. The confirmed loadout facts are limited to the modifier structure, the boon stacking promise, and the cross-run reset that defines the loot loop.` },
-      { id: "fixed-weapons-boons-module-2", type: "prose", heading: "What the Steam store description commits to", body: `The official description for AppID 2067210 commits to three loadout facts on launch day:
+      { id: "fixed-weapons-boons-module-1", type: "prose", heading: "Quick Answer", body: `The launch weapon roster includes the SOP38 Pistol, M1A2 Thompson, SBC Cannon, and Sniper Rifle (the Sniper Rifle is default-unlocked per the 2026-09-17 update). The named Multiverse Intel categories include Flying Razors Intel and Luring Intel. The Trinket and Catalyst Boon meta-progression layers sit alongside Intel upgrades. The 2026-09-17 Shatterverse Balance Update rebalanced weapon-type drops, made weapons appear earlier, opened the pre-boss shop regardless of Armory unlocks, reduced the Catalyst Orb cost, and increased Catalyst Orb drops. Per-weapon stat blocks and the full Intel category list are still partial.` },
+      { id: "fixed-weapons-boons-module-2", type: "prose", heading: "Launch weapons and how the 2026-09-17 update reshaped the economy", body: `The launch weapon roster is anchored by the Steam achievements, the 2026-09-09 Serious Update #1 patch notes, and the playtest development update:
 
-- A weapon roster. The store page describes Serious Sam Shatterverse as an FPS, so the loadout is built around firearms plus any thrown or melee options the game adds on top.
-- Stacked boons. The store page uses the phrase "stack wild boons," which fixes the boon tier as a stackable modifier pool rather than a one-shot pickup.
-- Run modifiers. The store page uses the phrase "bend the rules with run modifiers," which fixes the meta tier as a per-run toggle that changes the encounter rules rather than as a permanent unlock.
+| Weapon | Confirmation | What the sources say |
+| --- | --- | --- |
+| SOP38 Pistol | 2026-09-09 Serious Update #1 + playtest dev update | Starter sidearm; the 2026-09-09 patch fixed a blend delay |
+| M1A2 Thompson | Playtest development update | Mid-tier submachine gun added during the playtest-to-launch window |
+| SBC Cannon | Steam achievement "Let's Go Bowling — Unlock the SBC Cannon" + playtest dev update | Heavy ordnance discoverable in-game; playtest patch fixed SBC Cannon projectiles |
+| Sniper Rifle | 2026-09-17 Shatterverse Balance Update | Default-unlocked for all players after the 2026-09-17 patch |
 
-Together those three facts describe a loadout system with three layers: a weapon layer, a boon layer, and a modifier layer. The store page does not commit to the contents of any of those three layers.` },
-      { id: "fixed-weapons-boons-module-3", type: "prose", heading: "Serious Sam Shatterverse weapons: launch-day categories", body: `The Steam store page does not publish a per-weapon list, so a launch-day reader cannot point to a specific gun by name and call it official. What can be said from the store description is that the weapon layer exists and feeds the rest of the loop.
+The 2026-09-17 Shatterverse Balance Update reshaped the weapon / Intel economy around these four launch weapons in five concrete ways:
 
-Two practical rules follow from this status:
+- Rebalanced weapon-type drops. Each weapon type now drops in proportions that match its role in the run, rather than the launch build's first-week distribution.
+- Weapons appear earlier. New weapons show up in arena drops earlier in a run, so the team has its real kit ready before the first lieutenant fight.
+- Sniper Rifle default unlock. The Sniper Rifle is available without Armory unlocks, removing a meta-progression gate from one of the cleanest boss-damage weapons.
+- Pre-boss shop unlocked. All Weapons and Intel appear in the pre-boss shop regardless of Armory unlocks, so the team can buy the loadout they want before the lieutenant phase rather than the loadout the Armory has unlocked.
+- Catalyst Orb cost reduced and drop rate increased. The Catalyst Orb economy is more forgiving, which speeds up Trinket and Catalyst Boon meta-progression.
 
-- Do not build a tier list around named weapons until Behaviour Interactive Inc. or Devolver Digital publishes a list on the store page or in a press update.
-- Do not quote a per-weapon stat block as fact. Wait for the developer to publish it through an official channel.
+A reader who picked up the game at launch and bounced off the weapon economy should retry it in the 2026-09-17 build. The roster has not changed, but the gates around it have.` },
+      { id: "fixed-weapons-boons-module-3", type: "prose", heading: "Multiverse Intel categories and what the 2026-09-09 patch fixed", body: `The Multiverse Intel layer sits between weapons and boons. The named categories confirmed by the 2026-09-09 Serious Update #1 and the playtest development update are:
 
-The closest the launch copy comes to a weapon category is the franchise tradition of pairing small arms with heavy ordnance, but that is a Serious Sam franchise expectation rather than a confirmed Shatterverse list.` },
-      { id: "fixed-weapons-boons-module-4", type: "prose", heading: "Boon categories on launch day", body: `The store description's "stack wild boons" line fixes boons as a stackable modifier pool, but it does not publish categories. A launch-day reader can describe how boons behave without naming them:
+- Flying Razors Intel. The 2026-09-09 patch corrected a percentage value, so Flying Razors now deal the damage the upgrade text describes instead of a lower launch-build value.
+- Luring Intel. The 2026-09-09 patch repaired Luring Intel's interaction with Retro Sam's decoy clone, so the Luring trigger pulls enemies on the same beat as the player's shots. Combined with the 2026-09-09 Sam variant fix, the Retro Sam + Luring Intel pairing is now consistent across the run.
 
-- Boons stack during a run. The store uses the verb "stack," which means each boon adds to the previous one rather than replacing it.
-- Boons reset between runs. The permadeath loop in the official description forces a clean slate, so any boon a player holds at the end of a run does not carry forward by default.
-- Boons interact with weapons and modifiers. The store frames boons alongside weapons and modifiers, which means they modify the loadout rather than living outside it.
+Other named entities from the same patch window — Small Lava Golems (a 2026-09-09 enemy-side fix) and Clockwork Arena (a 2026-09-09 environment fix) — are not Intel categories themselves but show up in the same patch notes, which is useful context for reading the patch log. The full Intel category list, the per-Intel rank effects, and the Intel upgrade track are still partial pending a developer-published sheet.` },
+      { id: "fixed-weapons-boons-module-4", type: "prose", heading: "Trinkets, Catalyst Boons, and the meta-progression layer", body: `The Steam achievements name the meta-progression layer through their titles rather than through per-item lists:
 
-These three rules describe the mechanics without naming any specific boon, which is consistent with the launch state.` },
-      { id: "fixed-weapons-boons-module-5", type: "prose", heading: "Run modifier categories on launch day", body: `The store description's "bend the rules with run modifiers" line fixes modifiers as a per-run toggle that changes the encounter rules. A launch-day reader can describe how modifiers behave without naming them:
+- "Office Enthusiast," "Program Approved Pastime," "It's Collector's Edition," and "All In" all reference Trinket / Catalyst Boon / Intel meta progression. The four achievements together cover the meta-progression track from first collectible to full collection.
+- The 2026-09-17 Catalyst Orb cost reduction + drop rate increase directly feeds this layer, because Catalyst Orbs are the currency that powers the Boon upgrades.
+
+The cleanest launch-window read is to treat the meta-progression layer as Trinkets (collectible permanent unlocks) plus Catalyst Boons (stackable run-time modifiers), with Intel upgrades sitting alongside. The Trinket list, the full Boon category list, and the per-rank Intel effects are still partial. A launch-window player should plan to spend Catalyst Orbs on whichever Boon fixes the most recent failure, because the achievement gating assumes broad coverage rather than single-boon mastery.` },
+      { id: "fixed-weapons-boons-module-5", type: "prose", heading: "Run modifiers and the three-layer loadout model", body: `The store description's "bend the rules with run modifiers" line fixes modifiers as a per-run toggle that changes the encounter rules. A launch-day reader can describe how modifiers behave without naming them:
 
 - Modifiers are run-level. The store uses the phrase "run modifiers," which means they apply to the whole run rather than to a single fight.
 - Modifiers change the rules. The verb "bend" implies modifiers alter the normal loop rather than just adding power, which is consistent with a difficulty or chaos toggle.
 - Modifiers pair with boons. The store description lists modifiers and boons in the same sentence, which means they are designed to interact during a run.
 
-Again, the mechanic is clear. The named list of modifiers is not announced as of 2026-09-05.` },
-      { id: "fixed-weapons-boons-module-6", type: "prose", heading: "How the loadout pool fits the roguelite loop", body: `The weapon, boon, and modifier layers fit together into the roguelite loop the store description pitches:
+The honest launch read is that the named modifier list is still partial, but the role of modifiers is clear: they change how a run plays, which means modifier selection is the highest-leverage decision a team makes before the first arena.
+
+The three-layer loadout model — weapons as the base layer, Intel + Boons as the stacking modifier layer, and run modifiers as the per-run rule layer — is consistent with the launch copy and the 2026-09-17 rebalance, and stays useful when Behaviour Interactive Inc. publishes a named list.` },
+      { id: "fixed-weapons-boons-module-6", type: "prose", heading: "What is still partial in the weapons / Intel / boons cluster", body: `The launch weapon roster and the named Intel categories are locked in, but several supporting sheets are still partial:
+
+- Per-weapon stat blocks: not first-party published. Damage, fire rate, magazine size, and reload times are community observation rather than an official sheet.
+- Full Intel category list: partial. Only Flying Razors Intel and Luring Intel are first-party named; other categories circulate in community coverage.
+- Full Trinket list: partial.
+- Full Boon category list: partial.
+- Full run-modifier roster: partial.
+- Per-Intel rank effects: not first-party published.
+- Armory unlock vs. pre-boss shop interaction in the 2026-09-17 build: the pre-boss shop is now fully open per the patch notes, but the Armory progression itself is not enumerated.
+
+Until Behaviour Interactive Inc. or Devolver Digital publishes a per-weapon or per-Intel sheet, the practical guidance is to use the four launch weapons above as the working roster, treat the 2026-09-17 patch notes as the working economy, and wait for the first-party sheet before quoting stat blocks or modifier names as fact.` },
+      { id: "fixed-weapons-boons-module-7", type: "prose", heading: "How the loadout pool fits the roguelite loop", body: `The weapon, Intel, boon, and modifier layers fit together into the roguelite loop the store description pitches:
 
 - A run starts. The team picks a Sam variant roster and chooses the run modifiers that set the rules for the attempt.
-- Boons stack during the run. The team collects boons through arena clears and uses them to push the loadout further than the starting weapons allow.
+- Weapons and Intel layer up early. The 2026-09-17 update makes weapons appear earlier in a run and opens the pre-boss shop, so the team gets a real kit before the lieutenant phase.
+- Boons stack during the run. Each Boon compounds the previous one; the Catalyst Orb economy fuels upgrades.
 - The run ends at a lieutenant. The Mental lieutenant fights are the gates the team prepares for with the stacked loadout, and they reset on the next attempt along with the rest of the pool.
 
-This read is consistent with the launch copy and does not depend on any specific named weapon or boon.` },
-      { id: "fixed-weapons-boons-module-7", type: "prose", heading: "Where to watch for an official loot sheet", body: `Because the launch store page does not list individual weapons, boons, or modifiers, the next signal will arrive through one of four official channels:
+This read is consistent with the launch copy and the 2026-09-17 rebalance and does not depend on any specific named weapon or boon.` },
+      { id: "fixed-weapons-boons-module-8", type: "prose", heading: "Where to watch for an official loot sheet", body: `Because the per-weapon and per-Intel sheets are still partial, the next signal will arrive through one of four official channels:
 
-- The Steam store page for AppID 2067210, which is the canonical fact source for any description, feature list, or loot page change.
-- The Steam Community hub at https://steamcommunity.com/app/2067210, where developer posts may add loot detail during the launch window.
+- The Steam store page for AppID 2067210, which is the canonical fact source for any description, feature list, achievement, or loot page update.
+- The Steam Community hub at https://steamcommunity.com/app/2067210, where Devolver Digital and Behaviour Interactive Inc. post news and patch notes — including the 2026-09-09 Serious Update #1 and the 2026-09-17 Shatterverse Balance Update posts that already touched this cluster.
 - The verified X handle at https://x.com/SeriousSamIAm, which is the official development voice for the franchise.
 - The official Serious Sam franchise hub at https://www.serioussam.com/, which cross-links Shatterverse and the broader community.
 
-If Behaviour Interactive Inc. or Devolver Digital publishes a per-weapon or per-boon sheet on Steam or in a press release, those sources become the source of record and the dated status statements above can be revisited.` },
-      { id: "fixed-weapons-boons-module-8", type: "prose", heading: "Frequently Asked Questions", body: `### Are individual weapons listed on the Steam store page?
+If Behaviour Interactive Inc. or Devolver Digital publishes a per-weapon or per-Intel sheet on Steam or in a press release, those sources become the source of record and the dated status statements above can be revisited.` },
+      { id: "fixed-weapons-boons-module-9", type: "prose", heading: "Frequently Asked Questions", body: `### Which launch weapons are confirmed for Shatterverse?
 
-No. The launch store page describes the weapon layer in general terms but does not list individual weapon names, tiers, or stat blocks as of 2026-09-05. Watch the Steam store and Steam Community hub for the first published loot sheet.
+SOP38 Pistol, M1A2 Thompson, SBC Cannon, and Sniper Rifle. The Sniper Rifle was made a default unlock in the 2026-09-17 Shatterverse Balance Update, so it is available without Armory progression.
 
-### What does stacking wild boons mean in Shatterverse?
+### What changed for the weapon economy in the 2026-09-17 update?
 
-The Steam store uses the phrase "stack wild boons," which means each boon adds to the previous boon during a run rather than replacing it. The full boon category list is not announced as of 2026-09-05.
+Weapon-type drops were rebalanced, weapons appear earlier in a run, the Sniper Rifle is now a default unlock, the pre-boss shop unlocks regardless of Armory progression, and the Catalyst Orb cost was reduced while the drop rate was increased. The roster did not change; the gates around it did.
+
+### Which Intel categories are first-party confirmed?
+
+Flying Razors Intel and Luring Intel are first-party confirmed by the 2026-09-09 Serious Update #1 patch notes. Flying Razors Intel had a percentage-value fix; Luring Intel had its interaction with Retro Sam's decoy clone repaired.
+
+### What are Trinkets and Catalyst Boons?
+
+The Steam achievements "Office Enthusiast," "Program Approved Pastime," "It's Collector's Edition," and "All In" reference the Trinket / Catalyst Boon / Intel meta-progression layer. Trinkets are collectible permanent unlocks; Catalyst Boons are the run-time stacking modifiers; Catalyst Orbs are the currency that powers Boon upgrades.
 
 ### Do run modifiers carry over between runs?
 
-No. The roguelite loop resets modifiers between runs along with the rest of the pool. Modifiers are chosen per attempt rather than unlocked permanently, and the specific modifier list is not announced as of 2026-09-05.
+No. The roguelite loop resets modifiers between runs along with the rest of the pool. Modifiers are chosen per attempt rather than unlocked permanently, and the specific modifier list is still partial.
 
 ### Can I plan a loadout before the official loot list is published?
 
-You can plan a habit. Treat weapons as the base layer, boons as the stacking modifier layer, and run modifiers as the per-run rule layer. That three-layer mental model is consistent with the store copy and stays useful when Behaviour Interactive Inc. publishes a named list.` },
-      { id: "fixed-weapons-boons-module-9", type: "prose", heading: "Sources", body: `- [Serious Sam: Shatterverse on Steam (AppID 2067210)](https://store.steampowered.com/app/2067210/Serious_Sam_Shatterverse/) - \`official/store\` - checked 2026-09-05 - official game description with the "stack wild boons, bend the rules with run modifiers" framing, co-op roguelite loop, and 1-5 player feature list.
-- [Devolver Digital press release dated 2026-08-31](https://www.devolverdigital.com/) - \`media/interview\` - checked 2026-08-31 - launch framing for the roguelite FPS loot loop and publisher attribution for any future weapon or boon sheet.
-- [Steam Community hub for AppID 2067210](https://steamcommunity.com/app/2067210) - \`official/store\` - checked 2026-09-05 - official news, patch notes, and developer posts that may add per-weapon or per-boon detail over the launch window.` },
-      { id: "fixed-weapons-boons-module-10", type: "prose", heading: "Internal Link Requirements", body: `- \`Roguelite run tips\` -> \`/run-tips/\` - early-run habits, boon priority, and modifier selection that turn the loot pool into a successful run.
+Use the four launch weapons above as the working roster, treat the 2026-09-17 patch notes as the working economy, and pick modifiers + Intel + Boons by what fixes your most recent failure. That three-layer mental model is consistent with the store copy and stays useful when Behaviour Interactive Inc. publishes a named list.` },
+      { id: "fixed-weapons-boons-module-10", type: "prose", heading: "Sources", body: `- [Serious Sam: Shatterverse Steam achievements list (AppID 2067210)](https://steamcommunity.com/stats/2067210/achievements/) - \`official/store\` - checked 2026-09-19 - "Let's Go Bowling — Unlock the SBC Cannon" confirming SBC Cannon as a launch weapon; "Office Enthusiast," "Program Approved Pastime," "It's Collector's Edition," and "All In" referencing the Trinket / Catalyst Boon / Intel meta-progression layer.
+- [Serious Sam: Shatterverse on Steam (AppID 2067210)](https://store.steampowered.com/app/2067210/Serious_Sam_Shatterverse/) - \`official/store\` - checked 2026-09-19 - the canonical store page for any future weapon or Intel sheet update.
+- [Serious Sam: Shatterverse Steam news feed (AppID 2067210)](https://store.steampowered.com/feeds/news/app/2067210/) - \`official/store\` - checked 2026-09-19 - 2026-09-09 Serious Update #1 patch notes naming the SOP38 Pistol, Flying Razors Intel, Luring Intel, Small Lava Golems, and Clockwork Arena; 2026-09-17 Shatterverse Balance Update noting the weapon-type drop rebalance, earlier weapons, default Sniper Rifle unlock, pre-boss shop unlock, Catalyst Orb cost reduction, and Catalyst Orb drop increase.
+- [Steam Community hub for AppID 2067210](https://steamcommunity.com/app/2067210) - \`official/store\` - checked 2026-09-19 - launch-window discussions, post-launch news feed, and the playtest development update naming the M1A2 Thompson and noting the SBC Cannon projectile fix.` },
+      { id: "fixed-weapons-boons-module-11", type: "prose", heading: "Internal Link Requirements", body: `- \`Roguelite run tips\` -> \`/run-tips/\` - early-run habits, boon priority, and modifier selection that turn the loot pool into a successful run.
 - \`Sam variants and character roster\` -> \`/sam-variants/\` - the multi-universe Sam team that carries the weapon and boon layer through a run.
 - \`Mental lieutenants and bosses\` -> \`/lieutenants-bosses/\` - the five mid-run gates that the loadout is built to fight.` },
-      { id: "fixed-weapons-boons-module-11", type: "prose", heading: "Fact Boundaries", body: `- Current game: Serious Sam: Shatterverse, Steam AppID 2067210, Behaviour Interactive Inc. developer, Devolver Digital publisher, released August 31, 2026 on Steam for Windows 10/11 x64 PCs as a 1-5 player co-op roguelite FPS with online co-op and cross-platform multiplayer.
-- Confirmed framing: the Steam store description commits to a weapon layer, a stackable boon layer, and a per-run modifier layer. The store page does not name individual weapons, boons, or modifiers.
-- Unannounced as of 2026-09-05: per-weapon names and stat blocks, full trinket lists, boon category lists, run modifier lists, and any cross-run meta progression tied to specific weapons or boons. Treat any such detail from outside the Steam store or Devolver Digital press release as community speculation.
-- Legacy boundary: Serious Sam weapons from earlier Croteam-led titles are not reused as Shatterverse facts. The Shatterverse weapon layer is a 2026 Behaviour Interactive Inc. design and is described only by the launch store copy.
-- Source basis: every fact above is anchored to the Steam store AppID 2067210 page, the Devolver Digital press release dated 2026-08-31, or the Steam Community hub for the same AppID, all checked on 2026-09-05.` },
+      { id: "fixed-weapons-boons-module-12", type: "prose", heading: "Fact Boundaries", body: `- Current game: Serious Sam: Shatterverse, Steam AppID 2067210, Behaviour Interactive Inc. developer, Devolver Digital publisher, released August 31, 2026 on Steam for Windows 10/11 x64 PCs as a 1-5 player co-op roguelite FPS with online co-op and cross-platform multiplayer.
+- Confirmed launch weapons: SOP38 Pistol, M1A2 Thompson, SBC Cannon, Sniper Rifle (default unlock per 2026-09-17).
+- Confirmed Intel categories: Flying Razors Intel (percentage-value fix), Luring Intel (Retro Sam decoy interaction fix). Both fixed in 2026-09-09 Serious Update #1.
+- Confirmed 2026-09-17 changes: weapon-type drop rebalance, earlier weapons, Sniper Rifle default unlock, pre-boss shop unlock regardless of Armory, Catalyst Orb cost reduction, Catalyst Orb drop rate increase.
+- Confirmed framing: the Steam store description commits to a weapon layer, a stackable boon layer, and a per-run modifier layer. Trinkets + Catalyst Boons + Intel upgrades form the meta-progression layer (per the four meta-progression achievements).
+- Partial: per-weapon stat blocks, the full Intel category list, full Trinket list, full Boon category list, full run-modifier roster, per-Intel rank effects, and the Armory progression itself.
+- Legacy boundary: Serious Sam weapons from earlier Croteam-led titles are not reused as Shatterverse facts. The Shatterverse weapon layer is a 2026 Behaviour Interactive Inc. design and is described by the launch store copy plus the 2026-09-09 / 2026-09-17 patch notes.
+- Source basis: every fact above is anchored to the Steam store AppID 2067210 page, the Steam achievements list, the Steam news feed for AppID 2067210, or the Steam Community hub for the same AppID, all checked on 2026-09-19.` },
     ],
     faqIds: [],
     relatedPageIds: [],
     schemaTypes: ["Article","BreadcrumbList"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-05",
+    lastReviewed: "2026-09-19",
   },
 ];
