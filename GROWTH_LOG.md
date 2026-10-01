@@ -37,3 +37,7 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 - Refreshed `/run-tips` with the three difficulty tiers (Normal, Serious Mode, Mental Mode) anchored to Steam achievements and the 2026-09-17 reworked Mental starting difficulty, reduced enemy / Elite / boss HP on Serious, and eased 2-player scaling.
 - Refreshed `/weapons-boons` with the four launch weapons (SOP38 Pistol, M1A2 Thompson, SBC Cannon, Sniper Rifle default unlock), the two first-party Intel categories (Flying Razors Intel, Luring Intel), the Trinket / Catalyst Boon / Intel meta-progression layer, and the 2026-09-17 weapon economy rebalance.
 - Updated `CONTENT_INDEX.md` rows for `/lieutenants-bosses`, `/sam-variants`, `/run-tips`, `/weapons-boons` to reflect the new content roles and evidence anchors.
+
+## 2026-10-01 — shared Worker deployment maintenance
+
+User-authorized routing migration to `guide-pool-04` / Worker `onimushawayofthesword-pro`; source push is connected to the shared Cloudflare Git build via the repository deploy hook. Content and public URL identities are unchanged. Completion is tracked by the central group migration report and live source/version verification.
